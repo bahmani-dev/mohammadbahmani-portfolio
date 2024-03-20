@@ -21,7 +21,7 @@ const Header = () => {
           />
         </svg>
         {/* Text */}
-        <span className="hidden md:inline-block text-black">Logo</span>
+        <span className="hidden md:inline-block relative z-40">Logo</span>
       </div>
 
       {/* Middle Part */}
@@ -30,24 +30,24 @@ const Header = () => {
       <div className="flex items-center space-x-4">
         {/* Resume Button */}
         <nav className="flex-grow text-center">
-          <ul className="flex justify-center space-x-6 text-black">
+          <ul className="flex justify-center space-x-6 relative z-40">
             <li>
-              <a href="#" className=" hover:text-yellow-500 text-black">
+              <a href="#" className=" hover:text-yellow-500 relative z-40">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className=" hover:text-yellow-500 text-black">
+              <a href="#" className=" hover:text-yellow-500 relative z-40">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className=" hover:text-yellow-500 text-black">
+              <a href="#" className=" hover:text-yellow-500 relative z-40">
                 Services
               </a>
             </li>
             <button className="">
-              <a href="#" className=" hover:text-yellow-500 text-black">
+              <a href="#" className=" hover:text-yellow-500 relative z-40">
                 Contact
               </a>
             </button>
