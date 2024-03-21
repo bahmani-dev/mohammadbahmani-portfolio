@@ -18,11 +18,18 @@
 
 body {
   color: #000;
-  background-color: #c4c4c4;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.hero {
+  background-color: #c4c4c4;
+}
+
+.summary {
+  background-color: #1d1d1d;
 }
