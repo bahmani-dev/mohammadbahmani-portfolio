@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Hero from "@/components/hero";
 import Box from "@/components/summary";
+import HorizontalScrolling from "@/components/services";
 
 export default function Home() {
   return (
@@ -11,6 +12,8 @@ export default function Home() {
       <div className="self-start absolute h-[700px] w-[20%] hero "></div>
       <Hero></Hero>
       <Box></Box>
+
+      <HorizontalScrolling />
     </main>
   );
 }
