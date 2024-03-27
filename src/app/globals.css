@@ -15,7 +15,12 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
 body {
   color: #000;
 }
@@ -32,4 +37,52 @@ body {
 
 .summary {
   background-color: #1d1d1d;
+}
+section {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+}
+.inner-container {
+  display: flex;
+  flex-direction: row;
+  width: 500vw;
+  transform: rotate(90deg) translateY(-100vh);
+  transform-origin: top left;
+}
+.container-scroll {
+  width: 100vh;
+  height: 100vw;
+  transform: rotate(-90deg) translateX(-100vh);
+  transform-origin: top left;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.one {
+  background-image: url(https://unsplash.it/1600/700);
+}
+.two {
+  background-image: url(https://unsplash.it/1600/701);
+}
+.three {
+  background-image: url(https://unsplash.it/1601/700);
+}
+.four {
+  background-image: url(https://unsplash.it/1600/699);
+}
+.five {
+  background-image: url(https://unsplash.it/1599/700);
+}
+h1 {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 0 0 1rem rgba(0, 0, 0, 7);
 }
