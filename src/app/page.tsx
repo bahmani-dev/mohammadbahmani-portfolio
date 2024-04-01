@@ -8,12 +8,12 @@ export default function Home() {
     <main className=" flex flex-col items-center ">
       {/* <Header></Header> */}
 
-      <div className="self-end absolute h-[700px] w-[45%] bg-black "></div>
+      <div className="self-end absolute h-screen w-[40%] bg-black "></div>
       <div className="self-start absolute h-[700px] w-[20%] hero "></div>
       <Hero></Hero>
       <Box></Box>
 
-      <HorizontalScrolling />
+      {/* <HorizontalScrolling /> */}
     </main>
   );
 }
