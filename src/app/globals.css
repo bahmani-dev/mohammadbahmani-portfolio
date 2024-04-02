@@ -81,8 +81,3 @@ section {
 .five {
   background-image: url(https://unsplash.it/1599/700);
 }
-h1 {
-  font-size: 3rem;
-  color: #fff;
-  text-shadow: 0 0 1rem rgba(0, 0, 0, 7);
-}

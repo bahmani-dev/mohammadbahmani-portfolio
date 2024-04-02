@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className=" container text-white py-4 px-6 md:px-10 lg:px-0 flex items-center justify-between h-20">
+    <header className="  text-white py-4 px-6 md:px-10 lg:px-0 flex flex-col items-end justify-between h-[60%]">
       {/* Left Part */}
       <div className="flex items-center space-x-4">
         {/* Icon */}
@@ -27,10 +27,10 @@ const Header = () => {
       {/* Middle Part */}
 
       {/* Right Part */}
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center space-x-4 ">
         {/* Resume Button */}
-        <nav className="flex-grow text-center">
-          <ul className="flex justify-center space-x-6 relative z-40">
+        <nav className="flex-grow ">
+          <ul className="flex flex-col gap-10  relative z-40">
             <li>
               <a href="#" className=" hover:text-yellow-500 relative z-40">
                 Home
@@ -46,11 +46,11 @@ const Header = () => {
                 Services
               </a>
             </li>
-            <button className="">
+            <li className="">
               <a href="#" className=" hover:text-yellow-500 relative z-40">
                 Contact
               </a>
-            </button>
+            </li>
           </ul>
         </nav>
       </div>
