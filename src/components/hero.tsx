@@ -1,12 +1,17 @@
 import React from "react";
+import Button from "./button";
 
 const HeroSection = () => {
+  const handleClick = () => {
+    console.log("Button clicked!");
+  };
+
   return (
     <div className="hero self-stretch flex justify-center">
       <div className=" relative overflow-hidden container lg:max-xl:px-10 h-screen ">
         <div className="grid grid-cols-12 relative bottom-20 z-10 h-full ">
-          <div className="w-full h-full xl:col-span-2  col-span-10 "></div>
-          <div className="xl:col-span-10 col-span-6 bg-[#0f0f0f] -rotate-6 scale-125"></div>
+          <div className="w-full h-full xl:col-span-3  col-span-10 "></div>
+          <div className="xl:col-span-9 col-span-6 bg-[#0f0f0f] -rotate-6 scale-125"></div>
         </div>
         <div className="h-full grid grid-cols-12 justify-items-center items-center absolute lg:max-xl:px-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  z-10 text-white w-full">
           <div className=" col-span-4 h-[90%] w-[100%] bg-white rounded-[30px] "></div>
@@ -16,12 +21,13 @@ const HeroSection = () => {
               <br />
               SOFTWARE ENGINEER
             </h1>
-            <p className="text-base  ">
+            <p className="text-base font-thin ">
               I'm a Tunisian based web designer & front‑end developer focused on
               crafting clean & user‑friendly experiences, I am passionate about
               building excellent software that improves the lives of those
               around me.
             </p>
+            <Button text="more about me"></Button>
           </div>
         </div>
       </div>
