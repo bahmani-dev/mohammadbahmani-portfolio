@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "./nav";
 const Header = () => {
   return (
-    <header className="  text-white py-4 px-6 md:px-10 lg:px-0 flex flex-col items-end justify-between h-[70%]">
+    <header className=" fixed  text-white py-4 right-5  px-0 flex flex-col items-end justify-between h-[70%]">
       {/* Left Part */}
       <div className="flex items-center space-x-4">
         {/* Icon */}

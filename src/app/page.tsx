@@ -6,7 +6,7 @@ import Header from "@/components/header";
 export default function Home() {
   return (
     <main className=" flex flex-col items-center ">
-      <div className="self-end absolute h-[100%] pr-5">
+      <div className="self-end absolute h-[100%] pr-5 z-30">
         <Header></Header>
       </div>
 
