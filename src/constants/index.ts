@@ -17,9 +17,9 @@ export const NavLinks = [
     link: "/about",
   },
   {
-    name: "/my-projects",
+    name: "/my-portfolio",
     icon: BiSolidBriefcase,
-    link: "/my-projects",
+    link: "/my-portfolio",
   },
   {
     name: "/contact-me",

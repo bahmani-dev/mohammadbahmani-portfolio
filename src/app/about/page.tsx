@@ -10,7 +10,7 @@ import Header from "@/components/header";
 import { motion, useInView, useScroll } from "framer-motion";
 import { useRef } from "react";
 
-const Page = () => {
+const AboutPage = () => {
   const skillRef = useRef();
   // const isSkillRefInView = useInView(skillRef, {once:true});
   const isSkillRefInView = useInView(skillRef, { margin: "-100px" });
@@ -108,7 +108,7 @@ const Page = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-10 max-w-[90%] text-center items-center mt-5">
+      <div className="flex flex-col gap-10 max-w-[90%] text-center items-center mt-5 mb-[100px]">
         <h3 className="uppercase text-[22px] font-bold text-white ">skills</h3>
         <div className="hidden md:flex flex-col gap-10 max-w-[90%] text-center items-center mt-5">
           <Swiper
@@ -248,4 +248,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default AboutPage;
