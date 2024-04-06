@@ -1,15 +1,19 @@
-import { RxHome, RxPerson } from "react-icons/rx";
+import { AiFillHome } from "react-icons/ai";
 import { BiSolidBriefcase } from "react-icons/bi";
-import { BsPencilSquare, BsEnvelopeOpenFill } from "react-icons/bs";
+import {
+  BsPencilSquare,
+  BsEnvelopeOpenFill,
+  BsPersonFill,
+} from "react-icons/bs";
 export const NavLinks = [
   {
     name: "/",
-    icon: RxHome,
+    icon: AiFillHome,
     link: "/",
   },
   {
     name: "/my-skills",
-    icon: RxPerson,
+    icon: BsPersonFill,
     link: "/my-skills",
   },
   {
