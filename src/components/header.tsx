@@ -1,8 +1,8 @@
 import React from "react";
-
+import Nav from "./nav";
 const Header = () => {
   return (
-    <header className="  text-white py-4 px-6 md:px-10 lg:px-0 flex flex-col items-end justify-between h-[60%]">
+    <header className="  text-white py-4 px-6 md:px-10 lg:px-0 flex flex-col items-end justify-between h-[70%]">
       {/* Left Part */}
       <div className="flex items-center space-x-4">
         {/* Icon */}
@@ -25,35 +25,8 @@ const Header = () => {
       </div>
 
       {/* Middle Part */}
-
+      <Nav></Nav>
       {/* Right Part */}
-      <div className="flex items-center space-x-4 ">
-        {/* Resume Button */}
-        <nav className="flex-grow ">
-          <ul className="flex flex-col gap-10  relative z-40">
-            <li>
-              <a href="#" className=" hover:text-yellow-500 relative z-40">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="#" className=" hover:text-yellow-500 relative z-40">
-                About
-              </a>
-            </li>
-            <li>
-              <a href="#" className=" hover:text-yellow-500 relative z-40">
-                Services
-              </a>
-            </li>
-            <li className="">
-              <a href="#" className=" hover:text-yellow-500 relative z-40">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </div>
     </header>
   );
 };
