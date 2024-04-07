@@ -80,3 +80,36 @@ section {
 .five {
   background-image: url(https://unsplash.it/1599/700);
 }
+.container {
+  max-width: 1200px;
+}
+/* @media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1220px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 640px) {
+  .container {
+    max-width: 600px;
+  }
+} */
