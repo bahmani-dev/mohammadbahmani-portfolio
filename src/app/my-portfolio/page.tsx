@@ -31,11 +31,11 @@ const PortfolioPage = () => {
     // Add more projects as needed
   ];
   return (
-    <div className=" flex flex-col items-center bg-[#252525] gap-10 ">
-      <h1 className="uppercase text-[52px] font-bold text-white mt-10 relative z-10">
+    <div className=" flex flex-col items-center bg-[#252525] gap-10 min-h-screen ">
+      <h1 className="uppercase text-[52px] max-md:text-[42px] font-bold text-white mt-10 relative z-10">
         <span className="text-yellow-500">my</span> portfolio
       </h1>
-      <h2 className="uppercase absolute text-[#c4c4c4] -top-3 text-[116px] z-0 font-bold opacity-10">
+      <h2 className="uppercase absolute text-[#c4c4c4] -top-3 text-[116px] max-md:text-[96px] max-md:mt-2 z-0 font-bold opacity-10">
         works
       </h2>
       <div className="self-end absolute h-[100%] pr-5">
