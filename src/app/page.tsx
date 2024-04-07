@@ -11,7 +11,7 @@ export default function Home() {
         <Header></Header>
       </div>
 
-      <div className="self-end absolute h-screen w-[40%] bg-[#252525] "></div>
+      <div className="self-end absolute h-screen w-[40%] bg-[#111] "></div>
       {/* <div className="self-start absolute h-[700px] w-[20%] hero "></div> */}
 
       <Hero></Hero>
