@@ -4,7 +4,10 @@ import {
   BsPencilSquare,
   BsEnvelopeOpenFill,
   BsPersonFill,
+  BsFillTelephoneFill,
 } from "react-icons/bs";
+import { FaMap } from "react-icons/fa6";
+import { HiMailOpen } from "react-icons/hi";
 export const NavLinks = [
   {
     name: "/",
@@ -106,5 +109,48 @@ export const SkillData = [
     Image: "/images/mongodb.png",
     width: 40,
     height: 40,
+  },
+];
+
+export const Contacts = [
+  {
+    id: 1,
+    name: "map",
+    icon: FaMap,
+    title: "Address point",
+    text: "123 Stree New York City , United States Of America 750065.",
+  },
+  {
+    id: 2,
+    name: "phone",
+    icon: BsFillTelephoneFill,
+    title: "mail me",
+    text: "steve@mail.com",
+  },
+  {
+    id: 3,
+    name: "mail",
+    icon: HiMailOpen,
+    title: "call me",
+    text: "+216735783",
+  },
+];
+
+export const Socials = [
+  {
+    name: "Discord",
+    src: "/images/linkedin.png",
+  },
+  {
+    name: "Facebook",
+    src: "/images/facebook.png",
+  },
+  {
+    name: "Instagram",
+    src: "/images/instagram.png",
+  },
+  {
+    name: "Github",
+    src: "/images/github.png",
   },
 ];
