@@ -17,10 +17,10 @@ const AboutPage = () => {
 
   return (
     <div className=" flex flex-col items-center bg-[#0f0f0f] gap-10">
-      <h1 className="uppercase text-[52px] font-bold text-white mt-10 relative z-10">
+      <h1 className="uppercase text-[52px] max-md:text-[42px] font-bold text-white mt-10 relative z-10">
         About <span className="text-yellow-500">me</span>
       </h1>
-      <h2 className="uppercase absolute text-[#c4c4c4] mt-2 text-[96px] z-0 font-bold opacity-10">
+      <h2 className="uppercase absolute text-[#c4c4c4] mt-2 text-[96px] max-md:text-[82px] z-0 font-bold opacity-10">
         resume
       </h2>
       <div className="self-end absolute h-[100%] pr-5">
@@ -30,42 +30,42 @@ const AboutPage = () => {
         {/* Personal Info */}
 
         <div className=" p-4">
-          <h3 className="uppercase text-[22px] font-bold text-white mb-5">
+          <h3 className="uppercase md:text-[22px]  text-[18px]  font-bold text-white mb-5">
             personal infos
           </h3>
-          <div className="grid grid-cols-2 gap-4 text-white">
+          <div className="grid grid-cols-2 gap-4 text-white text-sm">
             {/* Personal Info Items */}
             <div>
               <p className="font-thin inline-block">First Name:</p>
-              <p className="inline-block">Steve</p>
+              <p className="md:inline block">Steve</p>
             </div>
             <div>
-              <p className="font-thin inline-block">Last Name:</p>
-              <p className="inline-block">Milner</p>
+              <p className="font-thin md:inline block">Last Name:</p>
+              <p className="md:inline block">Milner</p>
             </div>
             <div>
-              <p className="font-thin inline-block">Age:</p>
-              <p className="inline-block">30</p>
+              <p className="font-thin md:inline block">Age:</p>
+              <p className="md:inline block">30</p>
             </div>
             <div>
-              <p className="font-thin inline-block">Email:</p>
-              <p className="inline-block">steve@example.com</p>
+              <p className="font-thin md:inline block">Email:</p>
+              <p className="md:inline block">steve@example.com</p>
             </div>
             <div>
-              <p className="font-thin inline-block">Phone:</p>
-              <p className="inline-block">+123456789</p>
+              <p className="font-thin md:inline block">Phone:</p>
+              <p className="md:inline block">+123456789</p>
             </div>
             <div>
-              <p className="font-thin inline-block">Address:</p>
-              <p className="inline-block">123 Main Street, City, Country</p>
+              <p className="font-thin md:inline block">Address:</p>
+              <p className="md:inline block">123 Main Street, City, Country</p>
             </div>
             <div>
-              <p className="font-thin inline-block">Nationality:</p>
-              <p className="inline-block">American</p>
+              <p className="font-thin md:inline block">Nationality:</p>
+              <p className="md:inline block">American</p>
             </div>
             <div>
-              <p className="font-thin inline-block">Languages:</p>
-              <p className="inline-block">English, Spanish</p>
+              <p className="font-thin md:inline block">Languages:</p>
+              <p className="md:inline block">English, Spanish</p>
             </div>
           </div>
           <div className="mt-5">
@@ -109,7 +109,9 @@ const AboutPage = () => {
         </div>
       </div>
       <div className="flex flex-col gap-10 max-w-[90%] text-center items-center mt-5 mb-[100px]">
-        <h3 className="uppercase text-[22px] font-bold text-white ">skills</h3>
+        <h3 className="uppercase md:text-[22px] text-[18px] font-bold text-white  ">
+          skills
+        </h3>
         <div className="hidden md:flex flex-col gap-10 max-w-[90%] text-center items-center mt-5">
           <Swiper
             slidesPerView={6}
