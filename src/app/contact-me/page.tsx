@@ -3,11 +3,11 @@ import Header from "@/components/header";
 import { Contacts, Socials } from "@/constants";
 const ContactPage = () => {
   return (
-    <div className="w-full flex flex-col items-center bg-[#111] gap-10 h-screen">
-      <h1 className="uppercase text-[52px] font-bold text-white mt-10 relative z-10">
+    <div className="w-full flex flex-col items-center bg-[#111] gap-10 min-h-screen">
+      <h1 className="uppercase text-[52px] max-md:text-[42px] font-bold text-white mt-10 relative z-10">
         get in <span className="text-yellow-500">touch</span>
       </h1>
-      <h2 className="uppercase absolute text-[#c4c4c4] mt-2 text-[96px] z-0 font-bold opacity-10">
+      <h2 className="uppercase absolute text-[#c4c4c4] mt-2 text-[96px] max-md:text-[72px] max-md:mt-4 z-0 font-bold opacity-10">
         contact
       </h2>
       <div className="self-end absolute h-[100%] pr-5">
@@ -15,7 +15,7 @@ const ContactPage = () => {
       </div>
       <div className=" mt-5  container ">
         <div className="grid grid-cols-12 ">
-          <div className="col-span-4 p-4">
+          <div className="lg:col-span-4 col-span-12 p-4">
             <h3 className="uppercase text-[22px] font-bold text-white mb-5">
               Dont be shy!
             </h3>
@@ -49,7 +49,7 @@ const ContactPage = () => {
               ))}
             </div>
           </div>
-          <div className="col-span-8 px-10 mt-4">
+          <div className="lg:col-span-8 col-span-12 px-10 mt-4 max-md:mb-10">
             <form className=" ">
               <div className="mb-4">
                 <div className="flex mb-4">
