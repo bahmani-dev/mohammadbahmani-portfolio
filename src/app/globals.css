@@ -33,7 +33,9 @@ body {
 .background {
   background-color: #c4c4c4;
 }
-
+.shadow {
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+}
 .summary {
   background-color: #1d1d1d;
 }

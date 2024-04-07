@@ -1,8 +1,9 @@
+"use-client";
 import Image from "next/image";
 import Hero from "@/components/hero";
 import Box from "@/components/summary";
-import HorizontalScrolling from "@/components/services";
 import Header from "@/components/header";
+import React from "react";
 export default function Home() {
   return (
     <main className=" flex flex-col items-center ">
@@ -10,12 +11,12 @@ export default function Home() {
         <Header></Header>
       </div>
 
-      <div className="self-end absolute h-screen w-[40%] bg-[#0f0f0f] "></div>
-      <div className="self-start absolute h-[700px] w-[20%] hero "></div>
-      <Hero></Hero>
-      <Box></Box>
+      <div className="self-end absolute h-screen w-[40%] bg-[#252525] "></div>
+      {/* <div className="self-start absolute h-[700px] w-[20%] hero "></div> */}
 
-      {/* <HorizontalScrolling /> */}
+      <Hero></Hero>
+
+      <Box></Box>
     </main>
   );
 }

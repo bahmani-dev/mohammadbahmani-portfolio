@@ -43,7 +43,7 @@ const BlogPage = () => {
   ];
   return (
     <div className="w-full flex flex-col items-center bg-[#111] gap-10 min-h-screen">
-      <h1 className="uppercase text-[52px] font-bold text-white mt-10 relative z-10">
+      <h1 className="uppercase text-[52px] font-bold text-white mt-10 relative z-1 ">
         MY <span className="text-yellow-500">blogs</span>
       </h1>
       <h2 className="uppercase absolute text-[#c4c4c4] mt-2 text-[96px] z-0 font-bold opacity-10">
