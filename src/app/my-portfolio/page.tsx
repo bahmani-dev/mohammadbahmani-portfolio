@@ -31,7 +31,7 @@ const PortfolioPage = () => {
     // Add more projects as needed
   ];
   return (
-    <div className=" flex flex-col items-center bg-[#0f0f0f] gap-10 ">
+    <div className=" flex flex-col items-center bg-[#252525] gap-10 ">
       <h1 className="uppercase text-[52px] font-bold text-white mt-10 relative z-10">
         <span className="text-yellow-500">my</span> portfolio
       </h1>
