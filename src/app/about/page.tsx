@@ -23,7 +23,7 @@ const AboutPage = () => {
       <h2 className="uppercase absolute text-[#c4c4c4] mt-2 text-[96px] max-md:text-[82px] z-0 font-bold opacity-10">
         resume
       </h2>
-      <div className="self-end absolute h-[100%] pr-5">
+      <div className="lg:self-end absolute lg:h-[100%]  w-full flex justify-center lg:pr-5">
         <Header></Header>
       </div>
       <div className="flex flex-wrap justify-evenly container ">
@@ -108,7 +108,7 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-10 max-w-[90%] text-center items-center mt-5 mb-[100px]">
+      <div className="flex flex-col gap-10 max-w-[90%] text-center items-center mt-5 mb-[120px]">
         <h3 className="uppercase md:text-[22px] text-[18px] font-bold text-white  ">
           skills
         </h3>
