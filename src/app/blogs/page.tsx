@@ -42,17 +42,17 @@ const BlogPage = () => {
     // Add more blogs as needed
   ];
   return (
-    <div className="w-full flex flex-col items-center bg-[#111] gap-10 min-h-screen">
+    <div className="w-full flex flex-col items-center bg-[#111] gap-10 min-h-screen pb-[10%]">
       <h1 className="uppercase text-[52px] font-bold text-white mt-10 relative z-1 ">
         MY <span className="text-yellow-500">blogs</span>
       </h1>
       <h2 className="uppercase absolute text-[#c4c4c4] mt-2 text-[96px] z-0 font-bold opacity-10">
         posts
       </h2>
-      <div className="self-end absolute h-[100%] pr-5">
+      <div className="lg:self-end absolute md:h-[100%]  w-full flex justify-center lg:pr-5">
         <Header></Header>
       </div>
-      <div className=" mt-5  container ">
+      <div className=" mt-5  container mb-[120px] ">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-4">
           {blogs.map((blog, index) => (
             <BlogCard key={index} blog={blog} />
