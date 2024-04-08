@@ -13,7 +13,7 @@ const ContactPage = () => {
       <div className="lg:self-end absolute lg:h-[100%]  w-full flex justify-center lg:pr-5">
         <Header></Header>
       </div>
-      <div className=" mt-5  container mb-[150px] ">
+      <div className=" mt-5  container mb-[150px]  flex items-center ">
         <div className="grid grid-cols-12 ">
           <div className="lg:col-span-4 col-span-12 p-4">
             <h3 className="uppercase text-[22px] font-bold text-white mb-5">
