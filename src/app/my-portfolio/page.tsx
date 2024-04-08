@@ -31,17 +31,17 @@ const PortfolioPage = () => {
     // Add more projects as needed
   ];
   return (
-    <div className=" flex flex-col items-center bg-[#252525] gap-10 min-h-screen ">
+    <div className=" flex flex-col items-center bg-[#111] gap-10 min-h-screen ">
       <h1 className="uppercase text-[52px] max-md:text-[42px] font-bold text-white mt-10 relative z-10">
         <span className="text-yellow-500">my</span> portfolio
       </h1>
       <h2 className="uppercase absolute text-[#c4c4c4] -top-3 text-[116px] max-md:text-[96px] max-md:mt-2 z-0 font-bold opacity-10">
         works
       </h2>
-      <div className="self-end absolute h-[100%] pr-5">
+      <div className="lg:self-end  absolute lg:h-[100%]  w-full flex justify-center lg:pr-5">
         <Header></Header>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-[80%]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-[80%] mb-[120px]">
         {projects.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
