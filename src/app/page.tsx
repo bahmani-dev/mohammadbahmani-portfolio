@@ -7,16 +7,14 @@ import React from "react";
 export default function Home() {
   return (
     <main className=" flex flex-col items-center ">
-      <div className="self-end absolute h-[100%] pr-5 z-30">
+      <div className="lg:self-end absolute lg:h-[100%]  w-full flex justify-center lg:pr-5">
         <Header></Header>
       </div>
 
-      <div className="self-end absolute h-screen w-[40%] bg-[#111] "></div>
+      <div className="self-end absolute h-screen w-[40%] bg-[#111] z-0 "></div>
       {/* <div className="self-start absolute h-[700px] w-[20%] hero "></div> */}
 
       <Hero></Hero>
-
-      <Box></Box>
     </main>
   );
 }
