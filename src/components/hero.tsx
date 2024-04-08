@@ -7,8 +7,8 @@ const HeroSection = () => {
   };
 
   return (
-    <div className="lg:bg-yellow-500 bg-[#111] self-stretch flex justify-center">
-      <div className=" relative overflow-hidden container lg:max-xl:px-10 h-screen ">
+    <div className="lg:bg-yellow-500 bg-[#111] self-stretch flex items-center min-h-[100%] justify-center ">
+      <div className=" relative overflow-hidden xl:w-[90%] w-[100%] lg:max-xl:px-10 h-screen ">
         <div className="grid grid-cols-12 relative bottom-20 z-10 h-full ">
           <div className="w-full h-full xl:col-span-3  col-span-3 "></div>
           <div className="col-span-9  bg-[#111] -rotate-6 scale-125 lg:shadow"></div>
