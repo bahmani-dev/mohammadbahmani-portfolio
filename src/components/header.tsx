@@ -2,9 +2,9 @@ import React from "react";
 import Nav from "./nav";
 const Header = () => {
   return (
-    <header className=" fixed  text-white py-4 right-5  px-0 flex flex-col items-end justify-between h-[70%]">
+    <header className=" mt-20 fixed w-full z-50 max-lg:bg-[#252525]  text-white py-4 lg:right-5 max-lg:bottom-0  px-0 flex flex-col lg:items-end items-center justify-between lg:h-[70%]">
       {/* Left Part */}
-      <div className="flex items-center space-x-4">
+      <div className="lg:flex items-center space-x-4 hidden">
         {/* Icon */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ const Header = () => {
           />
         </svg>
         {/* Text */}
-        <span className="hidden md:inline-block relative z-40">Logo</span>
+        <span className="hidden lg:inline-block relative z-40">Logo</span>
       </div>
 
       {/* Middle Part */}
