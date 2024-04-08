@@ -28,13 +28,13 @@ const Navigation = () => {
   }, [isRouting]);
   console.log(path);
   return (
-    <div className="flex flex-col gap-6  relative z-40 lg:mr-5  ">
+    <div className="flex lg:flex-col gap-6  relative z-40 lg:mr-5  ">
       {isRouting && <Transition />}
       {NavLinks.map((nav) => (
         <Link
           key={nav.name}
           href={nav.link}
-          className={`w-[45px] h-[45px] flex items-center justify-center bg-gray-800 rounded-full`}
+          className={`w-[45px] h-[45px] flex  items-center justify-center bg-gray-800 rounded-full`}
         >
           <nav.icon
             className={`w-[18px] h-[18px] ${
