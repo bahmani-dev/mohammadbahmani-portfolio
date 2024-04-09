@@ -1,6 +1,10 @@
+"use client";
 import Button from "@/components/button";
 import Header from "@/components/header";
+import React, { useState } from "react";
+import emailjs from "emailjs-com";
 import { Contacts, Socials } from "@/constants";
+import EmailForm from "./sendEmail";
 const ContactPage = () => {
   return (
     <div className="w-full flex flex-col items-center bg-[#111] gap-10 min-h-screen">
@@ -49,45 +53,7 @@ const ContactPage = () => {
               ))}
             </div>
           </div>
-          <div className="lg:col-span-8 col-span-12 px-10 mt-4 max-md:mb-10">
-            <form className=" ">
-              <div className="mb-4">
-                <div className="flex mb-4">
-                  <div className="w-1/2 mr-2">
-                    <input
-                      type="text"
-                      placeholder="Your Name"
-                      className="rounded-3xl w-full px-4 py-3 bg-[#252525]"
-                    />
-                  </div>
-                  <div className="w-1/2 ml-2">
-                    <input
-                      type="email"
-                      placeholder="Your Email"
-                      className="rounded-3xl w-full px-4 py-3 bg-[#252525]"
-                    />
-                  </div>
-                </div>
-                <div className="mb-4">
-                  <input
-                    type="text"
-                    placeholder="Your Subject"
-                    className="rounded-3xl w-full px-4 py-3 bg-[#252525]"
-                  />
-                </div>
-                <div className="mb-4">
-                  <textarea
-                    placeholder="Your Message"
-                    className="rounded-3xl w-full px-4 py-3 bg-[#252525]"
-                    rows={10}
-                  />
-                </div>
-                <div className="mt-5">
-                  <Button text="send message"></Button>
-                </div>
-              </div>
-            </form>
-          </div>
+          <EmailForm></EmailForm>
         </div>
       </div>
     </div>
