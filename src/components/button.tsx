@@ -16,7 +16,7 @@ const Button = ({ text, type }: Props) => {
         {text}
       </span>
 
-      <div className=" w-[48px] h-[48px] relative z-30 rounded-full bg-yellow-500 flex items-center justify-center">
+      <div className=" w-[48px] h-[48px] relative z-10 rounded-full bg-yellow-500 flex items-center justify-center">
         <AiOutlineArrowRight />
       </div>
     </button>
