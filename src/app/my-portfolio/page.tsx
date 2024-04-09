@@ -38,7 +38,7 @@ const PortfolioPage = () => {
       <h2 className="uppercase absolute text-[#c4c4c4] -top-3 text-[116px] max-md:text-[96px] max-md:mt-2 z-0 font-bold opacity-10">
         works
       </h2>
-      <div className="lg:self-end  absolute lg:h-[100%]  w-full flex justify-center lg:pr-5">
+      <div className="lg:self-end  absolute lg:h-[100%]  max-lg:w-full flex justify-center lg:pr-5">
         <Header></Header>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-[80%] mb-[120px]">
