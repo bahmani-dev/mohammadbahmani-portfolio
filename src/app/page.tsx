@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import Hero from "@/components/hero";
-import Box from "@/components/summary";
 import Header from "@/components/header";
 import React from "react";
 import { PageWrapper } from "./pageWrapper";
