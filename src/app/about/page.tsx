@@ -23,7 +23,7 @@ const AboutPage = () => {
       <h2 className="uppercase absolute text-[#c4c4c4] mt-2 text-[96px] max-md:text-[82px] z-0 font-bold opacity-10">
         resume
       </h2>
-      <div className="lg:self-end absolute lg:h-[100%]  w-full flex justify-center lg:pr-5">
+      <div className="lg:self-end absolute lg:h-[100%]  max-lg:w-full flex justify-center lg:pr-5">
         <Header></Header>
       </div>
       <div className="flex flex-wrap justify-evenly lg:grid grid-cols-12 container ">
