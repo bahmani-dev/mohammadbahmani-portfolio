@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <PageWrapper>
       <main className=" flex flex-col items-center ">
-        <div className="lg:self-end absolute lg:h-[100%]  w-full flex justify-center lg:pr-5">
+        <div className="lg:self-end absolute lg:h-[100%] max-lg:w-full  flex justify-center lg:pr-5">
           <Header></Header>
         </div>
 
