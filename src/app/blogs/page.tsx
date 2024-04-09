@@ -1,5 +1,4 @@
 "use client";
-
 import Header from "@/components/header";
 import React from "react";
 import BlogCard from "@/components/blogCard";
@@ -44,6 +43,8 @@ const BlogPage = () => {
     },
     // Add more blogs as needed
   ];
+  // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+
   return (
     <motion.div
       className="h-full"
