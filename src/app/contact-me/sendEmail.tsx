@@ -66,7 +66,7 @@ const EmailForm: React.FC = () => {
       <form className=" " onSubmit={handleSubmit}>
         <div className="mb-4">
           <div className="flex mb-4">
-            <div className="w-1/2 ml-2 ">
+            <div className="w-1/2  ">
               <input
                 type="text"
                 name="name"
