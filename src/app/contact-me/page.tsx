@@ -14,7 +14,7 @@ const ContactPage = () => {
       <h2 className="uppercase absolute text-[#c4c4c4] mt-2 text-[96px] max-md:text-[72px] max-md:mt-4 z-0 font-bold opacity-10">
         contact
       </h2>
-      <div className="lg:self-end absolute lg:h-[100%]  w-full flex justify-center lg:pr-5">
+      <div className="lg:self-end absolute lg:h-[100%] max-lg:w-full flex justify-center lg:pr-5">
         <Header></Header>
       </div>
       <div className=" mt-5  container mb-[150px]  flex items-center ">
