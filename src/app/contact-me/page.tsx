@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { Contacts, Socials } from "@/constants";
 import EmailForm from "./sendEmail";
+import Link from "next/link";
 const ContactPage = () => {
   return (
     <div className="w-full flex flex-col items-center bg-[#111] gap-10 min-h-screen">
@@ -44,12 +45,13 @@ const ContactPage = () => {
             ))}
             <div className="flex flex-row gap-5 mt-8">
               {Socials.map((social) => (
-                <div
-                  className=" text-white bg-[#2b2b2b]  items-center justify-center p-2 rounded-full w-10"
+                <Link
+                  href={social.link}
+                  className=" text-white bg-[#2b2b2b] cursor-pointer items-center justify-center p-2 rounded-full w-10"
                   key={social.name}
                 >
                   <img src={social.src} alt="icon" className="" />
-                </div>
+                </Link>
               ))}
             </div>
           </div>
