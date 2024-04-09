@@ -26,10 +26,10 @@ const AboutPage = () => {
       <div className="lg:self-end absolute lg:h-[100%]  w-full flex justify-center lg:pr-5">
         <Header></Header>
       </div>
-      <div className="flex flex-wrap justify-evenly container ">
+      <div className="flex flex-wrap justify-evenly lg:grid grid-cols-12 container ">
         {/* Personal Info */}
 
-        <div className=" p-4">
+        <div className=" p-4 col-span-6">
           <h3 className="uppercase md:text-[22px]  text-[18px]  font-bold text-white mb-5">
             personal infos
           </h3>
@@ -74,7 +74,7 @@ const AboutPage = () => {
         </div>
 
         {/* Boxes */}
-        <div className=" p-4 grid grid-cols-2 gap-10">
+        <div className=" p-4 grid grid-cols-2 gap-10 col-span-6">
           {/* Box 1 */}
           <div className="border border-gray-800 text-white rounded-lg p-7  w-full ">
             <p className="text-lg font-bold text-[48px] text-yellow-500 mb-5">
