@@ -59,7 +59,7 @@ const BlogPage = () => {
         <h2 className="uppercase absolute text-[#c4c4c4] mt-2 text-[96px] z-0 font-bold opacity-10">
           posts
         </h2>
-        <div className="lg:self-end absolute md:h-[100%]  w-full flex justify-center lg:pr-5">
+        <div className="lg:self-end absolute md:h-[100%]  max-lg:w-full flex justify-center lg:pr-5">
           <Header></Header>
         </div>
         <div className=" mt-5  container mb-[120px] ">
