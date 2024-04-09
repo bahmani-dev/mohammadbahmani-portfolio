@@ -140,17 +140,21 @@ export const Socials = [
   {
     name: "Discord",
     src: "/images/linkedin.png",
+    link: "https://linkedin.com/in/mohammadbahmani",
   },
   {
     name: "Facebook",
     src: "/images/facebook.png",
+    link: "https://facebook.com/mohammad.mandegar11",
   },
   {
     name: "Instagram",
     src: "/images/instagram.png",
+    link: "https://instagram.com/mohammad.mandegarr",
   },
   {
     name: "Github",
     src: "/images/github.png",
+    link: "https://github.com/mohammadbahmani-dev",
   },
 ];
