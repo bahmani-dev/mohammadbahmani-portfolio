@@ -1,11 +1,8 @@
 import React from "react";
 import Button from "./button";
+import Link from "next/link";
 
 const HeroSection = () => {
-  const handleClick = () => {
-    console.log("Button clicked!");
-  };
-
   return (
     <div className="lg:bg-yellow-500 bg-[#111] self-stretch flex items-center min-h-[100%] justify-center ">
       <div className=" relative overflow-hidden xl:w-[90%] w-[100%] lg:max-xl:px-10 h-screen ">
@@ -29,7 +26,9 @@ const HeroSection = () => {
               around me.
             </p>
             <div className="max-lg:text-center">
-              <Button text="more about me"></Button>
+              <Link href="/about">
+                <Button text="more about me" type="button"></Button>
+              </Link>
             </div>
           </div>
         </div>
