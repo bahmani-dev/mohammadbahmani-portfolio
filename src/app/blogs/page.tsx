@@ -6,41 +6,13 @@ import { motion, useScroll, useTransform } from "framer-motion";
 const BlogPage = () => {
   const blogs = [
     {
-      title: "Blog Title 1",
-      image: "/images/NextWebsite.png",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      slug: "blog-title-1", // This could be dynamically generated from the title
+      title: "SOLID Principles: A Must-Know for All Developers",
+      image:
+        "https://miro.medium.com/v2/resize:fit:720/format:webp/1*NB9wHllrua8T3sBXGDwM1g.jpeg",
+      text: "If you are a software developer dreaming of writing code that’s super clear, works like a charm, and makes you feel like a coding superhero, then dive into the SOLID principles. They’re here to make your coding journey a whole lot cooler! 🌟",
+      slug: "https://medium.com/@mohammadmandegar2019/solid-principles-a-must-know-for-all-developers-13431ae5f7c6", // This could be dynamically generated from the title
     },
-    {
-      title: "Blog Title 2",
-      image: "/images/NextWebsite.png",
-      text: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      slug: "blog-title-2",
-    },
-    {
-      title: "Blog Title 3",
-      image: "/images/NextWebsite.png",
-      text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      slug: "blog-title-3",
-    },
-    {
-      title: "Blog Title 1",
-      image: "/images/NextWebsite.png",
-      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      slug: "blog-title-1", // This could be dynamically generated from the title
-    },
-    {
-      title: "Blog Title 2",
-      image: "/images/NextWebsite.png",
-      text: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      slug: "blog-title-2",
-    },
-    {
-      title: "Blog Title 3",
-      image: "/images/NextWebsite.png",
-      text: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      slug: "blog-title-3",
-    },
+
     // Add more blogs as needed
   ];
   // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
