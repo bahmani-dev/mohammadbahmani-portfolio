@@ -29,86 +29,92 @@ const AboutPage = () => {
       <div className="flex flex-wrap justify-evenly lg:grid grid-cols-12 container ">
         {/* Personal Info */}
 
-        <div className=" p-4 col-span-6">
-          <h3 className="uppercase md:text-[22px]  text-[18px]  font-bold text-white mb-5">
-            personal infos
-          </h3>
-          <div className="grid grid-cols-2 gap-4 text-white text-sm">
-            {/* Personal Info Items */}
-            <div>
-              <p className="font-thin inline-block">First Name:</p>
-              <p className="md:inline block">Steve</p>
+        <div className=" p-4 col-span-6 w-full m-auto">
+          <div className="sm:w-[80%] w-full m-auto">
+            <h3 className="uppercase md:text-[22px]  text-[18px]  font-bold text-white mb-5">
+              personal infos
+            </h3>
+            <div className="grid grid-cols-2 gap-4 text-white text-sm">
+              {/* Personal Info Items */}
+              <div>
+                <p className="font-thin inline-block">First Name:</p>
+                <p className="md:inline block">Steve</p>
+              </div>
+              <div>
+                <p className="font-thin md:inline block">Last Name:</p>
+                <p className="md:inline block">Milner</p>
+              </div>
+              <div>
+                <p className="font-thin md:inline block">Age:</p>
+                <p className="md:inline block">30</p>
+              </div>
+              <div>
+                <p className="font-thin md:inline block">Email:</p>
+                <p className="md:inline block">steve@example.com</p>
+              </div>
+              <div>
+                <p className="font-thin md:inline block">Phone:</p>
+                <p className="md:inline block">+123456789</p>
+              </div>
+              <div>
+                <p className="font-thin md:inline block">Address:</p>
+                <p className="md:inline block">
+                  123 Main Street, City, Country
+                </p>
+              </div>
+              <div>
+                <p className="font-thin md:inline block">Nationality:</p>
+                <p className="md:inline block">American</p>
+              </div>
+              <div>
+                <p className="font-thin md:inline block">Languages:</p>
+                <p className="md:inline block">English, Spanish</p>
+              </div>
             </div>
-            <div>
-              <p className="font-thin md:inline block">Last Name:</p>
-              <p className="md:inline block">Milner</p>
+            <div className="mt-5">
+              <Button text="Download CV" type="button"></Button>
             </div>
-            <div>
-              <p className="font-thin md:inline block">Age:</p>
-              <p className="md:inline block">30</p>
-            </div>
-            <div>
-              <p className="font-thin md:inline block">Email:</p>
-              <p className="md:inline block">steve@example.com</p>
-            </div>
-            <div>
-              <p className="font-thin md:inline block">Phone:</p>
-              <p className="md:inline block">+123456789</p>
-            </div>
-            <div>
-              <p className="font-thin md:inline block">Address:</p>
-              <p className="md:inline block">123 Main Street, City, Country</p>
-            </div>
-            <div>
-              <p className="font-thin md:inline block">Nationality:</p>
-              <p className="md:inline block">American</p>
-            </div>
-            <div>
-              <p className="font-thin md:inline block">Languages:</p>
-              <p className="md:inline block">English, Spanish</p>
-            </div>
-          </div>
-          <div className="mt-5">
-            <Button text="Download CV"></Button>
           </div>
         </div>
 
         {/* Boxes */}
-        <div className=" p-4 grid grid-cols-2 gap-10 col-span-6">
-          {/* Box 1 */}
-          <div className="border border-gray-800 text-white rounded-lg p-7  w-full ">
-            <p className="text-lg font-bold text-[48px] text-yellow-500 mb-5">
-              12+
-            </p>
-            <p>Years of Experience</p>
-          </div>
+        <div className=" col-span-6 w-full">
+          <div className="sm:w-[80%] w-full m-auto p-4 grid grid-cols-2 sm:gap-10 gap-5 ">
+            {/* Box 1 */}
+            <div className="border border-gray-800 text-white rounded-lg p-7  w-full ">
+              <p className="text-4xl font-bold sm:text-[48px] text-yellow-500 mb-5">
+                12+
+              </p>
+              <p>Years of Experience</p>
+            </div>
 
-          {/* Box 2 */}
-          <div className="border border-gray-800 text-white rounded-lg p-7  w-full ">
-            <p className="text-lg font-bold text-[48px] text-yellow-500 mb-5">
-              100+
-            </p>
-            <p>Projects Completed</p>
-          </div>
+            {/* Box 2 */}
+            <div className="border border-gray-800 text-white rounded-lg p-7  w-full ">
+              <p className="text-4xl font-bold sm:text-[48px] text-yellow-500 mb-5">
+                100+
+              </p>
+              <p>Projects Completed</p>
+            </div>
 
-          {/* Box 3 */}
-          <div className="border border-gray-800 text-white rounded-lg p-7  w-full ">
-            <p className="text-lg font-bold text-[48px] text-yellow-500 mb-5">
-              5
-            </p>
-            <p>Awards Won</p>
-          </div>
+            {/* Box 3 */}
+            <div className="border border-gray-800 text-white rounded-lg p-7  w-full ">
+              <p className="text-4xl font-bold sm:text-[48px] text-yellow-500 mb-5">
+                5
+              </p>
+              <p>Awards Won</p>
+            </div>
 
-          {/* Box 4 */}
-          <div className="border border-gray-800 text-white rounded-lg p-7  w-full ">
-            <p className="text-lg font-bold text-[48px] text-yellow-500 mb-5">
-              10K+
-            </p>
-            <p>Happy Clients</p>
+            {/* Box 4 */}
+            <div className="border border-gray-800 text-white rounded-lg p-7  w-full ">
+              <p className="text-4xl font-bold sm:text-[48px] text-yellow-500 mb-5">
+                10K+
+              </p>
+              <p>Happy Clients</p>
+            </div>
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-10 max-w-[90%] text-center items-center mt-5 mb-[120px]">
+      <div className="flex flex-col sm:gap-10 gap-5 max-w-[90%] text-center items-center mt-5 mb-[120px]">
         <h3 className="uppercase md:text-[22px] text-[18px] font-bold text-white  ">
           skills
         </h3>
