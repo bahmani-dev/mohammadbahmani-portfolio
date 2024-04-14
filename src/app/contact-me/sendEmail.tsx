@@ -23,7 +23,6 @@ const EmailForm: React.FC = () => {
       ...prevState,
       [e.target.name]: e.target.value,
     }));
-    console.log("CHANGE:", e.target.value, e, e.target.name, formData);
   };
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
@@ -45,12 +44,8 @@ const EmailForm: React.FC = () => {
         "492Cth8xbkTP_n_g-" // Use your user ID
       )
       .then(
-        function (response) {
-          console.log("Email sent successfully!", response);
-        },
-        function (error) {
-          console.error("Error sending email:", error);
-        }
+        function (response) {},
+        function (error) {}
       );
 
     // Optionally, clear the form fields after submission
@@ -62,7 +57,7 @@ const EmailForm: React.FC = () => {
     });
   };
   return (
-    <div className="lg:col-span-8 col-span-12 px-10 mt-4 max-md:mb-10">
+    <div className="lg:col-span-8 col-span-12 sm:px-10 px-4 mt-4 max-md:mb-10">
       <form className=" " onSubmit={handleSubmit}>
         <div className="mb-4">
           <div className="flex mb-4">
