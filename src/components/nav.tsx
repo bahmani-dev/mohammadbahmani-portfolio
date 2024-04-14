@@ -22,11 +22,9 @@ const Navigation = () => {
       const timeout = setTimeout(() => {
         setisRouting(false);
       }, 1200);
-      console.log(path);
       return () => clearTimeout(timeout);
     }
   }, [isRouting]);
-  console.log(path);
   return (
     <div className="flex lg:flex-col gap-6  relative z-40 lg:mr-5  ">
       {isRouting && <Transition />}
