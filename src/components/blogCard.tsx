@@ -15,7 +15,7 @@ interface BlogCardProps {
 
 const BlogCard: React.FC<BlogCardProps> = ({ blog }) => {
   return (
-    <Link href={`/blogs/${blog.slug}`}>
+    <Link href={`${blog.slug}`} target="_blank">
       <div className="rounded-md border  overflow-hidden text-white ">
         <img src={blog.image} alt={blog.title} className="w-full h-1/2" />
         <div className="bg-yellow-500 h-1 w-full "></div>
