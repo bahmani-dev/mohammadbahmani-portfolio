@@ -4,7 +4,7 @@ import Hero from "@/components/hero";
 import Header from "@/components/header";
 import React from "react";
 import { PageWrapper } from "./pageWrapper";
-export default function Home() {
+const Home = () => {
   return (
     <PageWrapper>
       <main className=" flex flex-col items-center ">
@@ -19,4 +19,6 @@ export default function Home() {
       </main>
     </PageWrapper>
   );
-}
+};
+
+export default Home;
