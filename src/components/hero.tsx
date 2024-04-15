@@ -23,13 +23,16 @@ const HeroSection = () => {
                     I'M stephen hawking <span></span>
                   </h1>
                 </div>
-                <div className="role xl:w-[60%] w-full max-lg:justify-center mt-10 xl:text-[24px]">
+                <div className="role xl:w-[60%] w-full max-lg:justify-center  ">
                   <div className="blocked"></div>
-                  <p> SOFTWARE ENGINEER</p>
+                  <p className="xl:text-[24px] text-white">
+                    {" "}
+                    SOFTWARE ENGINEER
+                  </p>
                 </div>
               </div>
             </div>
-            <p className="sm:text-base text-sm font-thin max-lg:text-center  ">
+            <p className="leading-loose sm:text-[16px] text-sm font-thin max-lg:text-center  ">
               I'm a Tunisian based web designer & front‑end developer focused on
               crafting clean & user‑friendly experiences, I am passionate about
               building excellent software that improves the lives of those
