@@ -8,6 +8,12 @@ import {
 } from "react-icons/bs";
 import { FaMap } from "react-icons/fa6";
 import { HiMailOpen } from "react-icons/hi";
+import { BsFillSunFill, BsFillMoonStarsFill } from "react-icons/bs";
+
+export const modes = [
+  { name: "light", icon: BsFillSunFill },
+  { name: "dark", icon: BsFillMoonStarsFill },
+];
 export const NavLinks = [
   {
     name: "/",
