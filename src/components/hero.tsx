@@ -16,14 +16,14 @@ const HeroSection = () => {
           <div className="text-lg md:text-xl lg:text-2xl lg:col-span-8 col-span-12 flex flex-col justify-center  gap-5 sm:w-[70%] w-[100%] p-4 ">
             <div className="sm:text-4xl text-2xl font-bold leading-tight max-lg:text-center   ">
               <div className="relative flex justify-center flex-col">
-                <div className=" relative flex items-center max-lg:justify-center h-[50px] xl:w-[80%] w-full">
+                <div className=" relative flex items-center max-lg:justify-center h-[50px] xl:w-[100%] w-full">
                   <span className="blocked "></span>
-                  <h1 className="text-yellow-500 uppercase title sm:text-[32px] ">
+                  <h1 className="text-yellow-500 uppercase title sm:text-[32px] xl:text-[46px] ">
                     {" "}
                     I'M stephen hawking <span></span>
                   </h1>
                 </div>
-                <div className="role xl:w-[60%] w-full max-lg:justify-center mt-10">
+                <div className="role xl:w-[60%] w-full max-lg:justify-center mt-10 xl:text-[24px]">
                   <div className="blocked"></div>
                   <p> SOFTWARE ENGINEER</p>
                 </div>
