@@ -30,15 +30,13 @@ const Navigation = () => {
       {isRouting && <Transition />}
       {NavLinks.map((nav) => (
         <Link
-          key={nav.name}
           href={nav.link}
-          className={`w-[45px] h-[45px] flex  items-center justify-center bg-gray-800 rounded-full`}
+          key={nav.name}
+          className={`w-[45px] h-[45px] flex  items-center justify-center group overflow-hidden rounded-full relative transition duration-300 ease-out ${
+            path === nav.name ? "bg-yellow-500" : "bg-gray-800"
+          }`}
         >
-          <nav.icon
-            className={`w-[18px] h-[18px] ${
-              path === nav.name ? "text-yellow-500" : "text-white"
-            }`}
-          />
+          <nav.icon className={`w-[18px] h-[18px]`} />
         </Link>
       ))}
     </div>
