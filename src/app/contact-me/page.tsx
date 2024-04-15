@@ -22,7 +22,7 @@ const ContactPage = () => {
         <div className="grid grid-cols-12 ">
           <div className="lg:col-span-4 col-span-12 p-4">
             <h3 className="uppercase text-[22px] font-bold text-white mb-5">
-              Dont be shy!
+              let&apos;s work together
             </h3>
             <p className="text-white ">
               Feel free to get in touch with me. I am always open to discussing
