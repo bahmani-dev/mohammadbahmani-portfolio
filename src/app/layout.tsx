@@ -1,10 +1,16 @@
 "use client";
 import type { Metadata } from "next";
-import { Roboto_Mono } from "next/font/google";
+import { PT_Serif } from "next/font/google";
 import "./globals.css";
 import TransitionProvider from "@/components/Transition";
+import PreloadingScreen from "@/components/PreloadingScreen";
 
-const inter = Roboto_Mono({ subsets: ["latin"] });
+const inter = PT_Serif({
+  weight: ["400", "700"],
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  display: "swap",
+});
 
 // export const metadata: Metadata = {
 //   title: "Create Next App",
@@ -20,6 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {" "}
+        <PreloadingScreen />
         <TransitionProvider>{children}</TransitionProvider>
       </body>
     </html>
