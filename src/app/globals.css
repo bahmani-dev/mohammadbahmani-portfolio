@@ -93,7 +93,6 @@ body {
   display: flex;
   align-items: center;
   height: 30px;
-  margin-top: -10px;
 
   .blocked {
     width: 0%;
@@ -109,12 +108,8 @@ body {
     animation: secFadeIn 6.5s forwards;
     animation-delay: 6.8s;
     opacity: 0;
-    font-weight: 400;
-    font-family: "Lato";
-    color: #ffffff;
-    font-size: 12px;
+
     text-transform: uppercase;
-    letter-spacing: 5px;
   }
 }
 
