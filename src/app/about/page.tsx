@@ -16,16 +16,16 @@ const AboutPage = () => {
   const isSkillRefInView = useInView(skillRef, { margin: "-100px" });
 
   return (
-    <div className=" flex flex-col items-center bg-[#0f0f0f] gap-10">
+    <div className=" flex flex-col items-center bg-[#0f0f0f] gap-10 min-h-screen">
       <h1 className="uppercase text-[52px] max-md:text-[42px] font-bold text-white mt-10 relative z-10">
         About <span className="text-yellow-500">me</span>
       </h1>
       <h2 className="uppercase absolute text-[#c4c4c4] mt-2 text-[96px] max-md:text-[82px] z-0 font-bold opacity-10">
         resume
       </h2>
-      <div className="lg:self-end absolute lg:h-[100%]  max-lg:w-full flex justify-center lg:pr-5">
-        <Header></Header>
-      </div>
+
+      <Header></Header>
+
       <div className="flex flex-wrap justify-evenly lg:grid grid-cols-12 container ">
         {/* Personal Info */}
 
