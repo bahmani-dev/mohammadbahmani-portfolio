@@ -33,7 +33,7 @@ const Navigation = () => {
           href={nav.link}
           key={nav.name}
           className={`w-[45px] h-[45px] flex  items-center justify-center group overflow-hidden rounded-full relative transition duration-300 ease-out ${
-            path === nav.name ? "bg-yellow-500" : "bg-gray-800"
+            path === nav.name ? "bg-yellow-500" : "dark:bg-gray-800 bg-gray-400"
           }`}
         >
           <nav.icon className={`w-[18px] h-[18px]`} />
