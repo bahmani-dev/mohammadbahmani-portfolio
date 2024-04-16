@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-
+import Image from "next/image";
 interface Project {
   name: string;
   imageUrl: string;
@@ -17,24 +17,29 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
     <div className="">
       <div
-        className={`flex flex-col items-center justify-center  py-10 px-5 rounded-2xl bg-[${project.color}]  dark:bg-gray-600 cursor-pointer relative overflow-hidden  `}
+        className={`flex flex-col items-center justify-center  py-10 px-5 rounded-md bg-[${project.color}]  dark:bg-gray-600 cursor-pointer relative overflow-hidden  `}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
-        <img
+        <Image
           src={project.imageUrl}
           alt={project.name}
-          className={`max-w-[80%] mb-4 rounded-xl transform transition-transform duration-500  ${
+          width={400}
+          height={100}
+          className={`max-w-[90%] mb-4 rounded-md transform transition-transform duration-500  ${
             isHovered ? "scale-110" : ""
           }`}
         />
       </div>
       <p
-        className={` mt-5 mb-10 dark:text-white text-[#666] text-2xl transform transition duration-500 ${
+        className={` mt-5  dark:text-white text-[#666] text-2xl transform transition duration-500 ${
           isHovered ? "underline underline-offset-8" : ""
         } `}
       >
         {project.name}
+      </p>
+      <p className={` mt-3  mb-10 dark:text-white text-[#666] text-sm    `}>
+        {project.desc}
       </p>
     </div>
   );
