@@ -11,10 +11,6 @@ import { motion, useInView, useScroll } from "framer-motion";
 import { useRef } from "react";
 
 const AboutPage = () => {
-  const skillRef = useRef();
-  // const isSkillRefInView = useInView(skillRef, {once:true});
-  const isSkillRefInView = useInView(skillRef, { margin: "-100px" });
-
   return (
     <div className=" flex flex-col items-center dark:bg-[#0f0f0f] bg-white dark:text-white text-[#666] gap-10 min-h-screen">
       <h1 className="uppercase text-[52px] max-md:text-[42px] font-bold   mt-10 relative z-10">
@@ -165,15 +161,8 @@ const AboutPage = () => {
             ))}
           </Swiper>
         </div>
-        <div
-          className="flex flex-col gap-12 justify-center md:hidden"
-          ref={skillRef}
-        >
-          <motion.div
-            initial={{ x: "-300px" }}
-            animate={isSkillRefInView ? { x: 0 } : {}}
-            className="flex gap-4 flex-wrap"
-          >
+        <div className="flex flex-col gap-12 justify-center md:hidden">
+          <div className="flex gap-4 flex-wrap p-5">
             <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
               JavaScript
             </div>
@@ -249,7 +238,7 @@ const AboutPage = () => {
             <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
               Figma
             </div>
-          </motion.div>
+          </div>
         </div>
       </div>
     </div>
