@@ -24,19 +24,23 @@ const PreloadingScreen: React.FC = () => {
   useEffect(() => {
     const intervalId = setInterval(() => {
       setCurrentLanguageIndex((prevIndex) => {
-        if (prevIndex + 1 === languages.length) {
-          // If the last message is reached, set allMessagesShown to true
-          setAllMessagesShown(true);
-          localStorage.setItem("allMessagesShown", "true");
+        if (typeof prevIndex === "number") {
+          if (prevIndex + 1 === languages.length) {
+            setAllMessagesShown(true);
+            localStorage.setItem("allMessagesShown", "true");
+            clearInterval(intervalId);
+            return prevIndex;
+          } else {
+            return (prevIndex + 1) % languages.length;
+          }
         } else {
-          return (prevIndex + 1) % languages.length;
+          return 0;
         }
       });
     }, durations[currentLanguageIndex] * 1000);
 
-    // Clear interval when all messages are shown
     return () => clearInterval(intervalId);
-  }, [currentLanguageIndex]); // Re-run effect when currentLanguageIndex changes
+  }, [currentLanguageIndex]);
 
   if (!allMessagesShown) {
     return (
