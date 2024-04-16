@@ -42,7 +42,7 @@ const Home = () => {
           <Header></Header>
         </div>
 
-        <div className="self-end absolute h-screen w-[40%] bg-[#111] z-0 "></div>
+        <div className="self-end absolute h-screen w-[40%] dark:bg-[#111] bg-white z-0 "></div>
         {/* <div className="self-start absolute h-[700px] w-[20%] hero "></div> */}
 
         {/* {isHardReload && <PreloadingScreen />} */}
