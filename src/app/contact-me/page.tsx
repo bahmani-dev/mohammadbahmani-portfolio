@@ -6,6 +6,7 @@ import emailjs from "emailjs-com";
 import { Contacts, Socials } from "@/constants";
 import EmailForm from "./sendEmail";
 import Link from "next/link";
+import Image from "next/image";
 const ContactPage = () => {
   return (
     <div className="w-full flex flex-col items-center dark:bg-[#0f0f0f] bg-white dark:text-white text-[#666] gap-10 min-h-screen">
@@ -47,7 +48,13 @@ const ContactPage = () => {
                   className="  dark:bg-[#2b2b2b] bg-[#eee] cursor-pointer items-center justify-center p-2 rounded-full w-10"
                   key={social.name}
                 >
-                  <img src={social.src} alt="icon" className="" />
+                  <Image
+                    src={social.src}
+                    alt="icon"
+                    className=""
+                    width={20}
+                    height={20}
+                  />
                 </Link>
               ))}
             </div>
