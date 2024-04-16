@@ -6,6 +6,7 @@ interface Project {
   imageUrl: string;
   liveDemoUrl: string;
   color: string;
+  desc: string;
 }
 
 interface ProjectCardProps {
