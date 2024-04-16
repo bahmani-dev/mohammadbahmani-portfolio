@@ -40,7 +40,7 @@ const PreloadingScreen: React.FC = () => {
 
   if (!allMessagesShown) {
     return (
-      <div className="fixed inset-0 flex items-center justify-center bg-[#111] text-white  z-50 w-full h-full">
+      <div className="fixed inset-0 flex items-center justify-center text-[#666] bg-white dark:bg-[#111] dark:text-white  z-50 w-full h-full">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
