@@ -4,28 +4,28 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <div className="lg:bg-yellow-500 bg-[#111] self-stretch flex items-center min-h-[100%] justify-center ">
+    <div className="lg:bg-yellow-500 bg-[#fff]  self-stretch flex items-center min-h-[100%] justify-center ">
       <div className=" relative overflow-hidden xl:w-[90%] w-[100%] lg:max-xl:px-10 h-screen ">
         <div className="grid grid-cols-12 relative bottom-20 z-10 h-full ">
           <div className="w-full h-full xl:col-span-3  col-span-3 "></div>
-          <div className="col-span-9  bg-[#111] -rotate-6 scale-125 lg:shadow"></div>
+          <div className="col-span-9  bg-[#fff] dark:bg-[#111] -rotate-6 scale-125 lg:shadow"></div>
         </div>
         <div className="lg:h-full grid grid-cols-12 justify-items-center items-center  gap-5 lg:gap-0 absolute lg:max-xl:px-10 top-1/2 left-1/2 transform -translate-x-1/2 sm:-translate-y-1/2 translate-y-[-55%]  z-10 text-white w-full">
           <div className=" col-span-4 h-[90%] w-[100%] bg-white rounded-[30px] shadow ml-4 hidden lg:block"></div>
           <div className="w-[250px] h-[250px] rounded-full border-4 border-[#252525] col-span-12 lg:hidden"></div>
-          <div className="text-lg md:text-xl lg:text-2xl lg:col-span-8 col-span-12 flex flex-col justify-center  gap-5 sm:w-[70%] w-[100%] p-4 ">
+          <div className="text-lg md:text-xl lg:text-2xl lg:col-span-8 col-span-12 flex flex-col justify-center  gap-5 sm:w-[70%] w-[100%] p-4 text-black dark:text-white">
             <div className="sm:text-4xl text-2xl font-bold leading-tight max-lg:text-center   ">
               <div className="relative flex justify-center flex-col">
                 <div className=" relative flex items-center max-lg:justify-center h-[50px] xl:w-[100%] w-full">
                   <span className="blocked "></span>
                   <h1 className="text-yellow-500 uppercase title sm:text-[32px] xl:text-[46px] ">
                     {" "}
-                    I'M stephen hawking <span></span>
+                    I&apos;M stephen hawking <span></span>
                   </h1>
                 </div>
                 <div className="role xl:w-[60%] w-full max-lg:justify-center  ">
                   <div className="blocked"></div>
-                  <p className="xl:text-[24px] text-white">
+                  <p className="xl:text-[24px] dark:text-white">
                     {" "}
                     SOFTWARE ENGINEER
                   </p>
