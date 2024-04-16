@@ -18,7 +18,7 @@ const PortfolioPage = () => {
       imageUrl:
         "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
       liveDemoUrl: "https://example.com",
-      color: "#00ff00",
+      color: "#224f7d",
     },
     {
       id: 3,
@@ -26,21 +26,21 @@ const PortfolioPage = () => {
       imageUrl:
         "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
       liveDemoUrl: "https://example.com",
-      color: "#0000ff",
+      color: "#90133d",
     },
     // Add more projects as needed
   ];
   return (
-    <div className=" flex flex-col items-center bg-[#111] gap-10 min-h-screen ">
-      <h1 className="uppercase text-[52px] max-md:text-[42px] font-bold text-white mt-10 relative z-10">
-        <span className="text-yellow-500">my</span> portfolio
+    <div className=" flex flex-col items-center dark:bg-[#0f0f0f] bg-white dark:text-white text-[#666] gap-10 min-h-screen ">
+      <h1 className="uppercase text-[52px] max-md:text-[42px] font-bold   mt-10 relative z-10">
+        About <span className="text-yellow-500">me</span>
       </h1>
-      <h2 className="uppercase absolute text-[#c4c4c4] -top-3 text-[116px] max-md:text-[96px] max-md:mt-2 z-0 font-bold opacity-10">
-        works
+      <h2 className="uppercase absolute dark:text-[#c4c4c4] text-[#1e2530]  mt-2 text-[96px] max-md:text-[82px] z-0 font-bold opacity-10">
+        resume
       </h2>
-      <div className="lg:self-end  absolute lg:h-[100%]  max-lg:w-full flex justify-center lg:pr-5">
-        <Header></Header>
-      </div>
+
+      <Header></Header>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-[80%] mb-[120px]">
         {projects.map((project, index) => (
           <ProjectCard key={index} project={project} />
