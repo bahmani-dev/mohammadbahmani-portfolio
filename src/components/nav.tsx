@@ -24,10 +24,10 @@ const Navigation = () => {
       }, 1200);
       return () => clearTimeout(timeout);
     }
-  }, [isRouting]);
+  }, [isRouting, path]);
   return (
     <div className="flex lg:flex-col gap-6  relative z-40 lg:mr-5  ">
-      {isRouting && <Transition />}
+      {isRouting}
       {NavLinks.map((nav) => (
         <Link
           href={nav.link}
