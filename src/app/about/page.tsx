@@ -16,11 +16,11 @@ const AboutPage = () => {
   const isSkillRefInView = useInView(skillRef, { margin: "-100px" });
 
   return (
-    <div className=" flex flex-col items-center bg-[#0f0f0f] gap-10 min-h-screen">
-      <h1 className="uppercase text-[52px] max-md:text-[42px] font-bold text-white mt-10 relative z-10">
+    <div className=" flex flex-col items-center dark:bg-[#0f0f0f] bg-white dark:text-white text-[#666] gap-10 min-h-screen">
+      <h1 className="uppercase text-[52px] max-md:text-[42px] font-bold   mt-10 relative z-10">
         About <span className="text-yellow-500">me</span>
       </h1>
-      <h2 className="uppercase absolute text-[#c4c4c4] mt-2 text-[96px] max-md:text-[82px] z-0 font-bold opacity-10">
+      <h2 className="uppercase absolute dark:text-[#c4c4c4] text-[#1e2530]  mt-2 text-[96px] max-md:text-[82px] z-0 font-bold opacity-10">
         resume
       </h2>
 
@@ -29,12 +29,12 @@ const AboutPage = () => {
       <div className="flex flex-wrap justify-evenly lg:grid grid-cols-12 container ">
         {/* Personal Info */}
 
-        <div className=" p-4 col-span-6 w-full m-auto">
-          <div className="sm:w-[80%] w-full m-auto">
-            <h3 className="uppercase md:text-[22px]  text-[18px]  font-bold text-white mb-5">
+        <div className=" p-4 col-span-6 w-full max-lg:m-auto">
+          <div className="sm:max-lg:w-[80%] w-full m-auto">
+            <h3 className="uppercase md:text-[22px]  text-[18px]  font-bold text-[#666] dark:text-white mb-5">
               personal infos
             </h3>
-            <div className="grid grid-cols-2 gap-4 text-white text-sm">
+            <div className="grid grid-cols-2 gap-4 text-[#666] dark:text-white text-sm">
               {/* Personal Info Items */}
               <div>
                 <p className="font-thin inline-block">First Name:</p>
@@ -79,34 +79,34 @@ const AboutPage = () => {
 
         {/* Boxes */}
         <div className=" col-span-6 w-full">
-          <div className="sm:w-[80%] w-full m-auto p-4 grid grid-cols-2 sm:gap-10 gap-5 ">
+          <div className="sm:max-lg:w-[80%] w-full m-auto p-4 grid grid-cols-2 sm:gap-10 gap-5 ">
             {/* Box 1 */}
-            <div className="border border-gray-800 text-white rounded-lg p-7  w-full ">
-              <p className="text-4xl font-bold sm:text-[48px] text-yellow-500 mb-5">
+            <div className="border border-gray-400  dark:border-gray-800 text-[#666] dark:text-white rounded-lg p-7  w-full ">
+              <p className="text-4xl font-bold  sm:text-[48px] text-yellow-500 mb-5">
                 12+
               </p>
               <p>Years of Experience</p>
             </div>
 
             {/* Box 2 */}
-            <div className="border border-gray-800 text-white rounded-lg p-7  w-full ">
-              <p className="text-4xl font-bold sm:text-[48px] text-yellow-500 mb-5">
+            <div className="border border-gray-400  dark:border-gray-800 text-[#666] dark:text-white rounded-lg p-7  w-full ">
+              <p className="text-4xl font-bold  sm:text-[48px] text-yellow-500 mb-5">
                 100+
               </p>
               <p>Projects Completed</p>
             </div>
 
             {/* Box 3 */}
-            <div className="border border-gray-800 text-white rounded-lg p-7  w-full ">
-              <p className="text-4xl font-bold sm:text-[48px] text-yellow-500 mb-5">
+            <div className="border border-gray-400  dark:border-gray-800 text-[#666] dark:text-white rounded-lg p-7  w-full ">
+              <p className="text-4xl font-bold  sm:text-[48px] text-yellow-500 mb-5">
                 5
               </p>
               <p>Awards Won</p>
             </div>
 
             {/* Box 4 */}
-            <div className="border border-gray-800 text-white rounded-lg p-7  w-full ">
-              <p className="text-4xl font-bold sm:text-[48px] text-yellow-500 mb-5">
+            <div className="border border-gray-400  dark:border-gray-800 text-[#666] dark:text-white rounded-lg p-7  w-full ">
+              <p className="text-4xl font-bold  sm:text-[48px] text-yellow-500 mb-5">
                 10K+
               </p>
               <p>Happy Clients</p>
@@ -114,11 +114,11 @@ const AboutPage = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col sm:gap-10 gap-5 max-w-[90%] text-center items-center mt-5 mb-[120px]">
-        <h3 className="uppercase md:text-[22px] text-[18px] font-bold text-white  ">
+      <div className="flex flex-col sm:gap-10 gap-5 container text-center items-center mt-5 mb-[120px]">
+        <h3 className="uppercase md:text-[22px] text-[18px] font-bold dark:text-white text-[#666] ">
           skills
         </h3>
-        <div className="hidden md:flex flex-col gap-10 max-w-[90%] text-center items-center mt-5">
+        <div className="hidden md:flex flex-col gap-10 container  text-center items-center mt-5">
           <Swiper
             slidesPerView={6}
             loop={true}
