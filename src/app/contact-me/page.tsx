@@ -8,32 +8,29 @@ import EmailForm from "./sendEmail";
 import Link from "next/link";
 const ContactPage = () => {
   return (
-    <div className="w-full flex flex-col items-center bg-[#111] gap-10 min-h-screen">
-      <h1 className="uppercase text-[52px] max-md:text-[42px] font-bold text-white mt-10 relative z-10">
+    <div className="w-full flex flex-col items-center dark:bg-[#0f0f0f] bg-white dark:text-white text-[#666] gap-10 min-h-screen">
+      <h1 className="uppercase text-[52px] max-md:text-[42px] font-bold   mt-10 relative z-10">
         get in <span className="text-yellow-500">touch</span>
       </h1>
-      <h2 className="uppercase absolute text-[#c4c4c4] mt-2 text-[96px] max-md:text-[72px] max-md:mt-4 z-0 font-bold opacity-10">
+      <h2 className="uppercase absolute dark:text-[#c4c4c4] text-[#1e2530]  mt-2 text-[96px] max-md:text-[82px] z-0 font-bold opacity-10">
         contact
       </h2>
-      <div className="lg:self-end absolute lg:h-[100%] max-lg:w-full flex justify-center lg:pr-5">
-        <Header></Header>
-      </div>
-      <div className=" mt-5  container sm:mb-[100px] mb-[70px]  flex items-center ">
+
+      <Header></Header>
+
+      <div className=" mt-5  container sm:mb-[100px] mb-[70px]  flex items-center dark:text-white text-[#666]">
         <div className="grid grid-cols-12 ">
           <div className="lg:col-span-4 col-span-12 p-4">
-            <h3 className="uppercase text-[22px] font-bold text-white mb-5">
+            <h3 className="uppercase text-[22px] font-bold  mb-5">
               let&apos;s work together
             </h3>
-            <p className="text-white ">
+            <p className=" ">
               Feel free to get in touch with me. I am always open to discussing
               new projects, creative ideas or opportunities to be part of your
               visions
             </p>
             {Contacts.map((contact) => (
-              <div
-                className="flex gap-5 text-white mt-8 items-center"
-                key={contact.id}
-              >
+              <div className="flex gap-5  mt-8 items-center" key={contact.id}>
                 <contact.icon className="w-[40px] h-[40px] text-yellow-500" />
                 <div>
                   <h4 className="uppercase font-light text-base mb-1">
@@ -47,7 +44,7 @@ const ContactPage = () => {
               {Socials.map((social) => (
                 <Link
                   href={social.link}
-                  className=" text-white bg-[#2b2b2b] cursor-pointer items-center justify-center p-2 rounded-full w-10"
+                  className="  dark:bg-[#2b2b2b] bg-[#eee] cursor-pointer items-center justify-center p-2 rounded-full w-10"
                   key={social.name}
                 >
                   <img src={social.src} alt="icon" className="" />
