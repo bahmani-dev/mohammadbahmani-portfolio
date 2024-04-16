@@ -13,19 +13,19 @@ const HeroSection = () => {
         <div className="lg:h-full grid grid-cols-12 justify-items-center items-center  gap-5 lg:gap-0 absolute lg:max-xl:px-10 top-1/2 left-1/2 transform -translate-x-1/2 sm:-translate-y-1/2 translate-y-[-55%]  z-10 text-white w-full">
           <div className=" col-span-4 h-[90%] w-[100%] bg-white rounded-[30px] shadow ml-4 hidden lg:block"></div>
           <div className="w-[250px] h-[250px] rounded-full border-4 border-[#252525] col-span-12 lg:hidden"></div>
-          <div className="text-lg md:text-xl lg:text-2xl lg:col-span-8 col-span-12 flex flex-col justify-center  gap-5 sm:w-[70%] w-[100%] p-4 text-black dark:text-white">
+          <div className="text-lg md:text-xl lg:text-2xl lg:col-span-8 col-span-12 flex flex-col justify-center  gap-5 sm:w-[70%] w-[100%] p-4 text-[#555] dark:text-white">
             <div className="sm:text-4xl text-2xl font-bold leading-tight max-lg:text-center   ">
               <div className="relative flex justify-center flex-col">
                 <div className=" relative flex items-center max-lg:justify-center h-[50px] xl:w-[100%] w-full">
                   <span className="blocked "></span>
-                  <h1 className="text-yellow-500 uppercase title sm:text-[32px] xl:text-[46px] ">
+                  <h1 className="text-yellow-600 dark:text-yellow-500 uppercase title sm:text-[32px] xl:text-[46px] ">
                     {" "}
                     I&apos;M stephen hawking <span></span>
                   </h1>
                 </div>
                 <div className="role xl:w-[60%] w-full max-lg:justify-center  ">
                   <div className="blocked"></div>
-                  <p className="xl:text-[24px] dark:text-white">
+                  <p className="xl:text-[24px] sm:text-[32px] dark:text-white ">
                     {" "}
                     SOFTWARE ENGINEER
                   </p>

@@ -68,7 +68,7 @@ const EmailForm: React.FC = () => {
                 onChange={handleChange}
                 value={formData.name}
                 placeholder="Your Name"
-                className="rounded-3xl text-gray-400  w-full px-4 py-3 bg-[#252525]"
+                className="rounded-3xl text-[#666] text-sm  dark:text-gray-400  w-full px-4 py-4 bg-[#eee] dark:bg-[#252525]"
               />
             </div>
             <div className="w-1/2 ml-2 ">
@@ -78,7 +78,7 @@ const EmailForm: React.FC = () => {
                 value={formData.email}
                 onChange={handleChange}
                 placeholder="Your Email"
-                className="rounded-3xl text-gray-400 w-full px-4 py-3 bg-[#252525]"
+                className="rounded-3xl text-[#666] text-sm  dark:text-gray-400 w-full px-4 py-4 bg-[#eee] dark:bg-[#252525]"
               />
             </div>
           </div>
@@ -89,7 +89,7 @@ const EmailForm: React.FC = () => {
               value={formData.subject}
               onChange={handleChange}
               placeholder="Your Subject"
-              className="rounded-3xl text-gray-400 w-full px-4 py-3 bg-[#252525]"
+              className="rounded-3xl text-[#666] text-sm  dark:text-gray-400 w-full px-4 py-4 bg-[#eee] dark:bg-[#252525]"
             />
           </div>
           <div className="mb-4">
@@ -98,7 +98,7 @@ const EmailForm: React.FC = () => {
               value={formData.message}
               onChange={handleChange}
               placeholder="Your Message"
-              className="rounded-3xl text-gray-400 w-full px-4 py-3 bg-[#252525]"
+              className="rounded-3xl text-[#666] text-sm  dark:text-gray-400 w-full px-4 py-4 bg-[#eee] dark:bg-[#252525]"
               rows={10}
             />
           </div>

@@ -17,7 +17,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
     <div className="">
       <div
-        className="flex flex-col items-center justify-center  py-10 px-5 rounded-2xl bg-gray-600 cursor-pointer relative overflow-hidden "
+        className={`flex flex-col items-center justify-center  py-10 px-5 rounded-2xl bg-[${project.color}]  dark:bg-gray-600 cursor-pointer relative overflow-hidden  `}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
@@ -30,7 +30,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         />
       </div>
       <p
-        className={` mt-5 mb-10 text-white text-2xl transform transition duration-500 ${
+        className={` mt-5 mb-10 dark:text-white text-[#666] text-2xl transform transition duration-500 ${
           isHovered ? "underline underline-offset-8" : ""
         } `}
       >
