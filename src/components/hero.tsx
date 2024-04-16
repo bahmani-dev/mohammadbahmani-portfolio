@@ -23,7 +23,7 @@ const HeroSection = () => {
                     I&apos;M stephen hawking <span></span>
                   </h1>
                 </div>
-                <div className="role xl:w-[60%] w-full max-lg:justify-center  ">
+                <div className="role xl:w-[60%] w-full max-lg:justify-center xl:mt-3 ">
                   <div className="blocked"></div>
                   <p className="xl:text-[24px] sm:text-[32px] dark:text-white ">
                     {" "}
@@ -32,11 +32,11 @@ const HeroSection = () => {
                 </div>
               </div>
             </div>
-            <p className="leading-loose sm:text-[16px] text-sm font-thin max-lg:text-center  ">
-              I'm a Tunisian based web designer & front‑end developer focused on
-              crafting clean & user‑friendly experiences, I am passionate about
-              building excellent software that improves the lives of those
-              around me.
+            <p className="xl:leading-[37px] leading-normal lg:leading-loose sm:text-[16px] text-sm font-thin max-lg:text-center xl:w-[550px] mt-3  xl:mt-5 ">
+              I&apos;m a Tunisian based web designer & front‑end developer
+              focused on crafting clean & user‑friendly experiences, I am
+              passionate about building excellent software that improves the
+              lives of those around me.
             </p>
             <div className="max-lg:text-center">
               <Link href="/about">
