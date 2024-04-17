@@ -63,6 +63,7 @@ const EmailForm: React.FC = () => {
           <div className="flex mb-4">
             <div className="w-1/2  ">
               <input
+                required
                 type="text"
                 name="name"
                 onChange={handleChange}
@@ -73,6 +74,7 @@ const EmailForm: React.FC = () => {
             </div>
             <div className="w-1/2 ml-2 ">
               <input
+                required
                 type="email"
                 name="email"
                 value={formData.email}
@@ -84,6 +86,7 @@ const EmailForm: React.FC = () => {
           </div>
           <div className="mb-4">
             <input
+              required
               type="text"
               name="subject"
               value={formData.subject}
@@ -94,6 +97,7 @@ const EmailForm: React.FC = () => {
           </div>
           <div className="mb-4">
             <textarea
+              required
               name="message"
               value={formData.message}
               onChange={handleChange}
