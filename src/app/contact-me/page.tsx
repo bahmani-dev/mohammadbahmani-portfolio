@@ -52,8 +52,8 @@ const ContactPage = () => {
                     src={social.src}
                     alt="icon"
                     className=""
-                    width={20}
-                    height={20}
+                    width={30}
+                    height={30}
                   />
                 </Link>
               ))}
