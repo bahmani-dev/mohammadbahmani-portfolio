@@ -30,7 +30,7 @@ const AboutPage = () => {
             <h3 className="uppercase md:text-[22px]  text-[18px]  font-bold text-[#666] dark:text-white mb-5">
               personal infos
             </h3>
-            <div className="grid grid-cols-2 gap-4 text-[#666] dark:text-white text-sm">
+            <div className="grid grid-cols-2 gap-4 text-[#666] dark:text-white text-sm lg:text-base">
               {/* Personal Info Items */}
               <div>
                 <p className="font-thin inline-block">First Name:</p>
@@ -67,45 +67,132 @@ const AboutPage = () => {
                 <p className="md:inline block">English, Spanish</p>
               </div>
             </div>
-            <div className="mt-5">
+            <div className="mt-5 lg:mt-10">
               <Button text="Download CV" type="button"></Button>
             </div>
           </div>
         </div>
-
-        {/* Boxes */}
-        <div className=" col-span-6 w-full">
-          <div className="sm:max-lg:w-[80%] w-full m-auto p-4 grid grid-cols-2 sm:gap-10 gap-5 ">
-            {/* Box 1 */}
-            <div className="border border-gray-400  dark:border-gray-800 text-[#666] dark:text-white rounded-lg p-7  w-full ">
-              <p className="text-4xl font-bold  sm:text-[48px] text-yellow-500 mb-5">
-                12+
-              </p>
-              <p>Years of Experience</p>
+        <div className=" col-span-6 w-full p-5  sm:max-lg:w-[80%]">
+          <div className="dark:from-[#111] from-[##25272f]  bg-gradient-to-r to-[#1f2024] dark:to-[#121212]  border border-[#1b2c68a0] relative rounded-lg  ">
+            <div className="flex flex-row">
+              <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-yellow-500 to-red-600"></div>
+              <div className="h-[1px] w-full bg-gradient-to-r from-red-600 to-transparent"></div>
             </div>
-
-            {/* Box 2 */}
-            <div className="border border-gray-400  dark:border-gray-800 text-[#666] dark:text-white rounded-lg p-7  w-full ">
-              <p className="text-4xl font-bold  sm:text-[48px] text-yellow-500 mb-5">
-                100+
-              </p>
-              <p>Projects Completed</p>
+            <div className="px-4 lg:px-8 py-5">
+              <div className="flex flex-row space-x-2">
+                <div className="h-3 w-3 rounded-full bg-red-400"></div>
+                <div className="h-3 w-3 rounded-full bg-orange-400"></div>
+                <div className="h-3 w-3 rounded-full bg-green-200"></div>
+              </div>
             </div>
-
-            {/* Box 3 */}
-            <div className="border border-gray-400  dark:border-gray-800 text-[#666] dark:text-white rounded-lg p-7  w-full ">
-              <p className="text-4xl font-bold  sm:text-[48px] text-yellow-500 mb-5">
-                5
-              </p>
-              <p>Awards Won</p>
-            </div>
-
-            {/* Box 4 */}
-            <div className="border border-gray-400  dark:border-gray-800 text-[#666] dark:text-white rounded-lg p-7  w-full ">
-              <p className="text-4xl font-bold  sm:text-[48px] text-yellow-500 mb-5">
-                10K+
-              </p>
-              <p>Happy Clients</p>
+            <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-4">
+              <code className="font-mono text-xs md:text-sm lg:text-sm ">
+                <div className="blink">
+                  <span className="mr-2 text-pink-500">const</span>
+                  <span className="mr-2 text-blue-500 dark:text-white">
+                    coder
+                  </span>
+                  <span className="mr-2 text-pink-500">=</span>
+                  <span className="text-gray-400"></span>
+                </div>
+                <div>
+                  <span className="ml-4 lg:ml-8 mr-2 text-blue-500 dark:text-white">
+                    name:
+                  </span>
+                  <span className="text-gray-400">'</span>
+                  <span className="text-yellow-500">Abu Said</span>
+                  <span className="text-gray-400">',</span>
+                </div>
+                <div className="ml-4 lg:ml-8 mr-2">
+                  <span className=" text-blue-500 dark:text-white">
+                    skills:
+                  </span>
+                  <span className="text-gray-400">['</span>
+                  <span className="text-yellow-500">React</span>
+                  <span className="text-gray-400">', '</span>
+                  <span className="text-yellow-500">NextJS</span>
+                  <span className="text-gray-400">', '</span>
+                  <span className="text-yellow-500">Redux</span>
+                  <span className="text-gray-400">', '</span>
+                  <span className="text-yellow-500">Express</span>
+                  <span className="text-gray-400">', '</span>
+                  <span className="text-yellow-500">NestJS</span>
+                  <span className="text-gray-400">', '</span>
+                  <span className="text-yellow-500">MySql</span>
+                  <span className="text-gray-400">', '</span>
+                  <span className="text-yellow-500">MongoDB</span>
+                  <span className="text-gray-400">', '</span>
+                  <span className="text-yellow-500">Docker</span>
+                  <span className="text-gray-400">', '</span>
+                  <span className="text-yellow-500">AWS</span>
+                  <span className="text-gray-400">'],</span>
+                </div>
+                <div>
+                  <span className="ml-4 lg:ml-8 mr-2 text-blue-500 dark:text-white">
+                    hardWorker:
+                  </span>
+                  <span className="text-orange-400">true</span>
+                  <span className="text-gray-400">,</span>
+                </div>
+                <div>
+                  <span className="ml-4 lg:ml-8 mr-2 text-blue-500 dark:text-white">
+                    quickLearner:
+                  </span>
+                  <span className="text-orange-400">true</span>
+                  <span className="text-gray-400">,</span>
+                </div>
+                <div>
+                  <span className="ml-4 lg:ml-8 mr-2 text-blue-500 dark:text-white">
+                    problemSolver:
+                  </span>
+                  <span className="text-orange-400">true</span>
+                  <span className="text-gray-400">,</span>
+                </div>
+                <div>
+                  <span className="ml-4 lg:ml-8 mr-2 text-green-400">
+                    hireable:
+                  </span>
+                  <span className="text-orange-400">function</span>
+                  <span className="text-gray-400">() </span>
+                </div>
+                <div>
+                  <span className="ml-8 lg:ml-16 mr-2 text-orange-400">
+                    return
+                  </span>
+                  <span className="text-gray-400">(</span>
+                </div>
+                <div>
+                  <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
+                  <span className="mr-2 text-blue-500 dark:text-white">
+                    hardWorker
+                  </span>
+                  <span className="text-yellow-500">&amp;&amp;</span>
+                </div>
+                <div>
+                  <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
+                  <span className="mr-2 text-blue-500 dark:text-white">
+                    problemSolver
+                  </span>
+                  <span className="text-yellow-500">&amp;&amp;</span>
+                </div>
+                <div>
+                  <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
+                  <span className="mr-2 text-blue-500 dark:text-white">
+                    skills.length
+                  </span>
+                  <span className="mr-2 text-yellow-500">&gt;=</span>
+                  <span className="text-orange-400">5</span>
+                </div>
+                <div>
+                  <span className="ml-8 lg:ml-16 mr-2 text-gray-400">);</span>
+                </div>
+                <div>
+                  <span className="ml-4 lg:ml-8 text-gray-400"></span>
+                </div>
+                <div>
+                  <span className="text-gray-400"></span>
+                </div>
+              </code>
             </div>
           </div>
         </div>
@@ -125,7 +212,7 @@ const AboutPage = () => {
             }}
             speed={5000}
             modules={[Autoplay]}
-            className="max-w-[90%] "
+            className="max-w-[90%] xl:max-w-[100%] "
           >
             {SkillData.map((skill, index) => (
               <SwiperSlide key={index}>
@@ -147,7 +234,7 @@ const AboutPage = () => {
             }}
             speed={5000}
             modules={[Autoplay]}
-            className="max-w-[90%] "
+            className="max-w-[90%] xl:max-w-[100%] "
           >
             {SkillData.map((skill, index) => (
               <SwiperSlide key={index}>
