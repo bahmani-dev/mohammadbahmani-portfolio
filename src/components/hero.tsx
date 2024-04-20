@@ -1,8 +1,6 @@
 import React from "react";
 import Button from "./button";
 import Link from "next/link";
-import Image from "next/image";
-import { url } from "inspector";
 
 const HeroSection = () => {
   return (
@@ -19,14 +17,7 @@ const HeroSection = () => {
               backgroundImage: "url('/images/hero.jpg')",
               backgroundPosition: "center",
             }}
-          >
-            {/* <Image
-              src="/images/hero.jpg"
-              alt="main photo"
-              width={500}
-              height={1200}
-            ></Image> */}
-          </div>
+          ></div>
           <div className="w-[250px] h-[250px] rounded-full border-4 border-[#252525] col-span-12 lg:hidden"></div>
           <div className="text-lg md:text-xl lg:text-2xl lg:col-span-8 col-span-12 flex flex-col justify-center  gap-5 sm:w-[70%] w-[100%] p-4 text-[#555] dark:text-white">
             <div className="sm:text-4xl text-2xl font-bold leading-tight max-lg:text-center   ">
