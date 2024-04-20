@@ -26,14 +26,14 @@ export const NavLinks = [
     link: "/about",
   },
   {
-    name: "/my-portfolio",
+    name: "/portfolio",
     icon: BiSolidBriefcase,
-    link: "/my-portfolio",
+    link: "/portfolio",
   },
   {
-    name: "/contact-me",
+    name: "/contact",
     icon: BsEnvelopeOpenFill,
-    link: "/contact-me",
+    link: "/contact",
   },
   {
     name: "/blogs",
