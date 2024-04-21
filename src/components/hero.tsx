@@ -26,7 +26,7 @@ const HeroSection = () => {
                   <span className="blocked "></span>
                   <h1 className="text-yellow-600 dark:text-yellow-500 uppercase title sm:text-[32px] xl:text-[46px] ">
                     {" "}
-                    I&apos;M stephen hawking <span></span>
+                    I&apos;M Mohammad Bahmani <span></span>
                   </h1>
                 </div>
                 <div className="role xl:w-[60%] w-full max-lg:justify-center xl:mt-3 ">
