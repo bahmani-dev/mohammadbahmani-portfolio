@@ -73,12 +73,6 @@ export const SkillData = [
     width: 80,
     height: 80,
   },
-  {
-    name: "Redux",
-    Image: "/images/redux.png",
-    width: 80,
-    height: 80,
-  },
 
   {
     name: "TypeScript",
@@ -116,6 +110,54 @@ export const SkillData = [
     width: 40,
     height: 40,
   },
+  {
+    name: "Postres",
+    Image: "/images/postgres.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "firebase",
+    Image: "/images/firebase.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Flutter",
+    Image: "/images/flutter.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Vuejs",
+    Image: "/images/vue.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Python",
+    Image: "/images/python.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Php",
+    Image: "/images/php.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Laravel",
+    Image: "/images/laravel.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    name: "Inertiajs",
+    Image: "/images/inertia.png",
+    width: 80,
+    height: 80,
+  },
 ];
 
 export const Contacts = [
@@ -124,21 +166,21 @@ export const Contacts = [
     name: "map",
     icon: FaMap,
     title: "Address point",
-    text: "123 Stree New York City , United States Of America 750065.",
+    text: "Lane 3, Shahr-e-Naw, Kabul, Afghanistan.",
   },
   {
     id: 2,
     name: "phone",
-    icon: BsFillTelephoneFill,
+    icon: HiMailOpen,
     title: "mail me",
-    text: "steve@mail.com",
+    text: "mohammadmandegar2019@gmail.com",
   },
   {
     id: 3,
     name: "mail",
-    icon: HiMailOpen,
+    icon: BsFillTelephoneFill,
     title: "call me",
-    text: "+216735783",
+    text: "+93778890838",
   },
 ];
 
@@ -151,12 +193,12 @@ export const Socials = [
   {
     name: "Facebook",
     src: "/images/facebook.png",
-    link: "https://facebook.com/mohammad.mandegar11",
+    link: "https://facebook.com/mohammadbahmani.dev",
   },
   {
     name: "Instagram",
     src: "/images/instagram.png",
-    link: "https://instagram.com/mohammad.mandegarr",
+    link: "https://instagram.com/mohammadbahmani.dev",
   },
   {
     name: "Github",

@@ -1,11 +1,13 @@
 import React, { ReactNode, ButtonHTMLAttributes } from "react";
 import { FaArrowRight } from "react-icons/fa";
+import { BiDownload } from "react-icons/bi";
 interface Props {
   text: string;
   type: "submit" | "reset" | "button";
+  icon?: ReactNode;
 }
 
-const Button = ({ text, type }: Props) => {
+const Button = ({ text, type, icon }: Props) => {
   return (
     <button
       type={type}
@@ -17,7 +19,7 @@ const Button = ({ text, type }: Props) => {
       </span>
 
       <div className=" w-[48px] h-[48px] text-white  relative z-10 rounded-full bg-yellow-500 flex items-center justify-center">
-        <FaArrowRight />
+        {icon || <FaArrowRight />}
       </div>
     </button>
   );

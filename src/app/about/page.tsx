@@ -7,6 +7,7 @@ import Image from "next/image";
 import { Autoplay } from "swiper/modules";
 import Button from "@/components/button";
 import Header from "@/components/header";
+import { FaDownload } from "react-icons/fa6";
 import { motion, useInView, useScroll } from "framer-motion";
 import { useRef } from "react";
 
@@ -34,41 +35,37 @@ const AboutPage = () => {
               {/* Personal Info Items */}
               <div>
                 <p className="font-thin inline-block">First Name:</p>
-                <p className="md:inline block">Steve</p>
+                <p className="md:inline block">Mohammad</p>
               </div>
               <div>
                 <p className="font-thin md:inline block">Last Name:</p>
-                <p className="md:inline block">Milner</p>
-              </div>
-              <div>
-                <p className="font-thin md:inline block">Age:</p>
-                <p className="md:inline block">30</p>
+                <p className="md:inline block">Bahmani</p>
               </div>
               <div>
                 <p className="font-thin md:inline block">Email:</p>
-                <p className="md:inline block">steve@example.com</p>
+                <p className=" block">mohammadmandegar2019@gmail.com</p>
               </div>
               <div>
                 <p className="font-thin md:inline block">Phone:</p>
-                <p className="md:inline block">+123456789</p>
+                <p className="md:inline block">+93778990838</p>
               </div>
               <div>
                 <p className="font-thin md:inline block">Address:</p>
                 <p className="md:inline block">
-                  123 Main Street, City, Country
+                  Shahr-e-Naw, Kabul, Afghanistan
                 </p>
               </div>
               <div>
-                <p className="font-thin md:inline block">Nationality:</p>
-                <p className="md:inline block">American</p>
-              </div>
-              <div>
                 <p className="font-thin md:inline block">Languages:</p>
-                <p className="md:inline block">English, Spanish</p>
+                <p className="md:inline block">English, Persian</p>
               </div>
             </div>
             <div className="mt-5 lg:mt-10">
-              <Button text="Download CV" type="button"></Button>
+              <Button
+                text="Download CV"
+                type="button"
+                icon={<FaDownload />}
+              ></Button>
             </div>
           </div>
         </div>
@@ -100,7 +97,7 @@ const AboutPage = () => {
                     name:
                   </span>
                   <span className="text-gray-400">'</span>
-                  <span className="text-yellow-500">Abu Said</span>
+                  <span className="text-yellow-500">Mohammad Bahmani</span>
                   <span className="text-gray-400">',</span>
                 </div>
                 <div className="ml-4 lg:ml-8 mr-2">
@@ -112,7 +109,7 @@ const AboutPage = () => {
                   <span className="text-gray-400">', '</span>
                   <span className="text-yellow-500">NextJS</span>
                   <span className="text-gray-400">', '</span>
-                  <span className="text-yellow-500">Redux</span>
+                  <span className="text-yellow-500">Postgres</span>
                   <span className="text-gray-400">', '</span>
                   <span className="text-yellow-500">Express</span>
                   <span className="text-gray-400">', '</span>
@@ -122,9 +119,12 @@ const AboutPage = () => {
                   <span className="text-gray-400">', '</span>
                   <span className="text-yellow-500">MongoDB</span>
                   <span className="text-gray-400">', '</span>
-                  <span className="text-yellow-500">Docker</span>
+                  <span className="text-yellow-500">Vue</span>
                   <span className="text-gray-400">', '</span>
-                  <span className="text-yellow-500">AWS</span>
+                  <span className="text-yellow-500">Flutter</span>
+                  <span className="text-gray-400">',</span>
+                  <span className="text-gray-400">'</span>
+                  <span className="text-yellow-500">...</span>
                   <span className="text-gray-400">'],</span>
                 </div>
                 <div>
