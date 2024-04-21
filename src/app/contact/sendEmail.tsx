@@ -1,6 +1,7 @@
 import React, { useState, ChangeEvent, FormEvent } from "react";
 import emailjs from "emailjs-com";
 import Button from "@/components/button";
+import { BsFillSendFill } from "react-icons/bs";
 interface FormData {
   name: string;
   email: string;
@@ -107,7 +108,11 @@ const EmailForm: React.FC = () => {
             />
           </div>
           <div className="mt-5">
-            <Button text="send message" type="submit"></Button>
+            <Button
+              text="send message"
+              type="submit"
+              icon={<BsFillSendFill />}
+            ></Button>
           </div>
         </div>
       </form>
