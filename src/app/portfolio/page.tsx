@@ -44,7 +44,7 @@ const PortfolioPage = () => {
 
       <Header></Header>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 max-w-[80%] mb-[120px]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 xl:gap-10 justify-between max-w-[80%] xl:max-w-[1200px] mb-[120px]">
         {projects.map((project, index) => (
           <div key={index} style={{ marginTop: index % 2 ? "50px" : "" }}>
             <ProjectCard project={project} />
