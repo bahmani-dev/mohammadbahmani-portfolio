@@ -6,12 +6,11 @@ const PortfolioPage = () => {
   const projects = [
     {
       id: 1,
-      name: "Project 1",
-      imageUrl:
-        "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+      name: "Colorful Effects Artgallery Website",
+      imageUrl: "/images/portfolio1.png",
       liveDemoUrl: "https://example.com",
       color: "#f58585",
-      desc: "        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum vero ipsum accusantium quasi quo deserunt. Aperiam, facere. Veritatis, magni ullam excepturi beatae omnis officiis quos accusamus dolorem quo voluptatibus deserunt odit dolor fuga necessitatibus a molestiae hic eius? Eum, velit.",
+      desc: "        The Colorful Effects Artgallery website offers a vibrant and immersive platform for art enthusiasts to explore, purchase, and learn about a diverse range of artworks created by talented artists from around the world.",
     },
     {
       id: 2,
@@ -28,6 +27,14 @@ const PortfolioPage = () => {
       imageUrl:
         "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
       liveDemoUrl: "https://example.com",
+      color: "#90133d",
+      desc: "        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum vero ipsum accusantium quasi quo deserunt. Aperiam, facere. Veritatis, magni ullam excepturi beatae omnis officiis quos accusamus dolorem quo voluptatibus deserunt odit dolor fuga necessitatibus a molestiae hic eius? Eum, velit.",
+    },
+    {
+      id: 4,
+      name: "Kamyab Contracting",
+      imageUrl: "/images/portfolio4.png",
+      liveDemoUrl: "",
       color: "#90133d",
       desc: "        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum vero ipsum accusantium quasi quo deserunt. Aperiam, facere. Veritatis, magni ullam excepturi beatae omnis officiis quos accusamus dolorem quo voluptatibus deserunt odit dolor fuga necessitatibus a molestiae hic eius? Eum, velit.",
     },
