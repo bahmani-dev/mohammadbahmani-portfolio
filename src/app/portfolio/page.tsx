@@ -8,27 +8,25 @@ const PortfolioPage = () => {
       id: 1,
       name: "Colorful Effects Artgallery Website",
       imageUrl: "/images/portfolio1.png",
-      liveDemoUrl: "https://example.com",
+      liveDemoUrl: "",
       color: "#f58585",
       desc: "        The Colorful Effects Artgallery website offers a vibrant and immersive platform for art enthusiasts to explore, purchase, and learn about a diverse range of artworks created by talented artists from around the world.",
     },
     {
       id: 2,
-      name: "Project 2",
-      imageUrl:
-        "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-      liveDemoUrl: "https://example.com",
+      name: "Colorful Effects Artgallery mobile app",
+      imageUrl: "/images/portfolio2.png",
+      liveDemoUrl: "",
       color: "#224f7d",
-      desc: "        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum vero ipsum accusantium quasi quo deserunt. Aperiam, facere. Veritatis, magni ullam excepturi beatae omnis officiis quos accusamus dolorem quo voluptatibus deserunt odit dolor fuga necessitatibus a molestiae hic eius? Eum, velit.",
+      desc: "The art gallery mobile app allows users to browse, order, and purchase artwork conveniently. With a user-friendly interface, users can explore a diverse collection, add artworks to their cart, and securely complete transactions. They can also save favorites, read reviews, and discover artists.",
     },
     {
       id: 3,
-      name: "Project 3",
-      imageUrl:
-        "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-      liveDemoUrl: "https://example.com",
+      name: "Vidagram Social Media",
+      imageUrl: "/images/portfolio3.jpeg",
+      liveDemoUrl: "",
       color: "#90133d",
-      desc: "        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum vero ipsum accusantium quasi quo deserunt. Aperiam, facere. Veritatis, magni ullam excepturi beatae omnis officiis quos accusamus dolorem quo voluptatibus deserunt odit dolor fuga necessitatibus a molestiae hic eius? Eum, velit.",
+      desc: "Introducing Vidagram: your go-to social media platform for sharing moments, connecting with friends, and discovering new content! Post your favorite videos, photos, and stories, then engage with your community through likes, comments, and private messages. Stay up-to-date with friends' stories and explore trending content—all in one place. Join Vidagram today and start sharing your world!",
     },
     {
       id: 4,
@@ -36,10 +34,10 @@ const PortfolioPage = () => {
       imageUrl: "/images/portfolio4.png",
       liveDemoUrl: "",
       color: "#90133d",
-      desc: "        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum vero ipsum accusantium quasi quo deserunt. Aperiam, facere. Veritatis, magni ullam excepturi beatae omnis officiis quos accusamus dolorem quo voluptatibus deserunt odit dolor fuga necessitatibus a molestiae hic eius? Eum, velit.",
+      desc: "      Kamyab Contracting website, a leader company since 2003, excels in the general contracting field with reshaping residential and commercial spaces with 20+ years of experience",
     },
-    // Add more projects as needed
   ];
+
   return (
     <div className=" flex flex-col items-center dark:bg-[#0f0f0f] bg-white dark:text-white text-[#666] gap-10 min-h-screen ">
       <h1 className="uppercase text-[52px] max-md:text-[42px] font-bold mt-8  lg:mt-12 relative z-10">
