@@ -27,7 +27,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         <Image
           src={project.imageUrl}
           alt={project.name}
-          width={500}
+          width={450}
           height={100}
           className={`max-w-[90%] mb-4 rounded-md transform transition-transform duration-500  ${
             isHovered ? "scale-110" : ""
