@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <div className="bg-yellow-500   self-stretch flex items-center min-h-[100%] justify-center ">
+    <div className="lg:bg-yellow-500  max-lg:dark:bg-[#111]  bg-[#fff]   self-stretch flex items-center min-h-[100%] justify-center ">
       <div className=" relative overflow-hidden xl:w-[90%] w-[100%] lg:max-xl:px-10 h-screen ">
         <div className="grid grid-cols-12 relative bottom-20 z-10 h-full ">
           <div className="w-full h-full xl:col-span-3  col-span-3 "></div>
@@ -19,7 +19,14 @@ const HeroSection = () => {
               backgroundSize: "cover",
             }}
           ></div>
-          <div className="w-[250px] h-[250px] rounded-full border-4 border-[#252525] col-span-12 lg:hidden"></div>
+          <div
+            className="w-[250px] h-[250px] rounded-full dark:border-2 border-[#252525] col-span-12 lg:hidden"
+            style={{
+              backgroundImage: "url('/images/hero2.png')",
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+            }}
+          ></div>
           <div className="text-lg md:text-xl lg:text-2xl lg:col-span-8 col-span-12 flex flex-col justify-center  gap-5 sm:w-[70%] w-[100%] p-4 text-[#555] dark:text-white">
             <div className="sm:text-4xl text-2xl font-bold leading-tight max-lg:text-center   ">
               <div className="relative flex justify-center flex-col">
@@ -39,7 +46,7 @@ const HeroSection = () => {
                 </div>
               </div>
             </div>
-            <p className="xl:leading-[37px] leading-normal lg:leading-loose sm:text-[16px] text-sm font-thin max-lg:text-center xl:w-[550px] mt-3  xl:mt-5 ">
+            <p className="xl:leading-[37px] leading-normal lg:leading-loose sm:text-[16px] text-base font-thin max-lg:text-center xl:w-[550px] mt-3  xl:mt-5 ">
               Software Engineer committed to crafting captivating user
               experiences. Passionate about transforming ideas into impactful
               digital solutions. Let&apos;s create something remarkable
