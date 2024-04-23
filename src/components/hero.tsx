@@ -14,7 +14,7 @@ const HeroSection = () => {
           <div
             className=" col-span-4 h-[90%] w-[100%] bg-white rounded-[30px] shadow ml-4 hidden lg:block "
             style={{
-              backgroundImage: "url('/images/hero2.jpg')",
+              backgroundImage: "url('/images/hero1.jpg')",
               backgroundPosition: "center",
               backgroundSize: "cover",
             }}
