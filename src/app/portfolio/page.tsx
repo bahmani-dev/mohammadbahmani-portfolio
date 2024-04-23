@@ -8,7 +8,7 @@ const PortfolioPage = () => {
       id: 1,
       name: "Colorful Effects Artgallery Website",
       imageUrl: "/images/portfolio1.png",
-      liveDemoUrl: "",
+      liveDemoUrl: "/artGallery",
       color: "#f58585",
       desc: "        The Colorful Effects Artgallery website offers a vibrant and immersive platform for art enthusiasts to explore, purchase, and learn about a diverse range of artworks created by talented artists from around the world.",
     },
