@@ -30,7 +30,7 @@ const BlogPage = () => {
         posts
       </h2>
       <Header></Header>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-[80%] mb-[120px]">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 max-w-[80%] mb-[120px]">
         {blogs.map((blog, index) => (
           <BlogCard key={index} blog={blog} />
         ))}
