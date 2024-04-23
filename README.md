@@ -2,7 +2,7 @@
 
 Welcome to my portfolio project! This project showcases my skills, projects, and experiences in a visually appealing and interactive manner.
 
-![Portfolio Preview](./images/portfolio-preview.png)
+![Portfolio Preview](./images/mainpage.png)
 
 ## 🚀 Deployed Link
 
