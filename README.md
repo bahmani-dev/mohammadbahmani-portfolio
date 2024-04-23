@@ -1,6 +1,7 @@
 # My Portfolio Project
 
 Welcome to my portfolio project! This project showcases my skills, projects, and experiences in a visually appealing and interactive manner.
+
 ![Screen Shot 1403-02-04 at 08 24 28](https://github.com/mohammadbahmani-dev/mohammadbahmani-portfolio/assets/101063732/bb2e65b3-4f49-4d57-817a-93eddee820e9)
 
 
@@ -22,19 +23,18 @@ Welcome to my portfolio project! This project showcases my skills, projects, and
 
 ## 🛠️ Technologies Used
 
-- **Frontend:** HTML5, CSS3, JavaScript (ES6+), React.js, Tailwind CSS
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB, PostgreSQL
-- **Deployment:** Heroku, Netlify
+- **Frontend:** TypeScript, Nextjs,  Tailwind CSS
+- **Backend:** Nextjs
+- **Deployment:** Vercel
 
 ## 📸 Screenshots
 
-![Screenshot 1](./images/screenshot1.png)
-![Screenshot 2](./images/screenshot2.png)
+<img width="1679" alt="Screen Shot 1403-02-04 at 09 33 51" src="https://github.com/mohammadbahmani-dev/mohammadbahmani-portfolio/assets/101063732/90a4e0e0-c0f5-4412-8823-e9e0b7f07190">
+<img width="1677" alt="Screen Shot 1403-02-04 at 09 34 06" src="https://github.com/mohammadbahmani-dev/mohammadbahmani-portfolio/assets/101063732/325ba091-34bc-48af-b6da-b990998dd8b7">
 
-## 📝 Installation & Usage
+##📬 Contact
+Feel free to reach out to me if you have any questions or suggestions!
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/portfolio-project.git
+Email: mohammadmandegar2019@gmail.com
+LinkedIn: mohammadbahmani
+Instagram: mohammadbahmani.dev
