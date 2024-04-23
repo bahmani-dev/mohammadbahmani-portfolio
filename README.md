@@ -1,8 +1,9 @@
-# My Portfolio Project
+![Screen Shot 1403-02-04 at 08 24 28](https://github.com/mohammadbahmani-dev/mohammadbahmani-portfolio/assets/101063732/a14e4935-5195-4391-8dd0-358de6df458b)# My Portfolio Project
 
 Welcome to my portfolio project! This project showcases my skills, projects, and experiences in a visually appealing and interactive manner.
+![Screen Shot 1403-02-04 at 08 24 28](https://github.com/mohammadbahmani-dev/mohammadbahmani-portfolio/assets/101063732/bb2e65b3-4f49-4d57-817a-93eddee820e9)
 
-![Portfolio Preview](./images/mainpage.png)
+
 
 ## 🚀 Deployed Link
 
