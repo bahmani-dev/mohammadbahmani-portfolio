@@ -96,36 +96,36 @@ const AboutPage = () => {
                   <span className="ml-4 lg:ml-8 mr-2 text-blue-500 dark:text-white">
                     name:
                   </span>
-                  <span className="text-gray-400">'</span>
+                  <span className="text-gray-400">&apos;</span>
                   <span className="text-yellow-500">Mohammad Bahmani</span>
-                  <span className="text-gray-400">',</span>
+                  <span className="text-gray-400">&apos;,</span>
                 </div>
                 <div className="ml-4 lg:ml-8 mr-2">
                   <span className=" text-blue-500 dark:text-white">
                     skills:
                   </span>
-                  <span className="text-gray-400">['</span>
+                  <span className="text-gray-400">[&apos;</span>
                   <span className="text-yellow-500">React</span>
-                  <span className="text-gray-400">', '</span>
+                  <span className="text-gray-400">&apos;, &apos;</span>
                   <span className="text-yellow-500">NextJS</span>
-                  <span className="text-gray-400">', '</span>
+                  <span className="text-gray-400">&apos;, &apos;</span>
                   <span className="text-yellow-500">Postgres</span>
-                  <span className="text-gray-400">', '</span>
+                  <span className="text-gray-400">&apos;, &apos;</span>
                   <span className="text-yellow-500">Express</span>
-                  <span className="text-gray-400">', '</span>
+                  <span className="text-gray-400">&apos;, &apos;</span>
                   <span className="text-yellow-500">NestJS</span>
-                  <span className="text-gray-400">', '</span>
+                  <span className="text-gray-400">&apos;, &apos;</span>
                   <span className="text-yellow-500">MySql</span>
-                  <span className="text-gray-400">', '</span>
+                  <span className="text-gray-400">&apos;, &apos;</span>
                   <span className="text-yellow-500">MongoDB</span>
-                  <span className="text-gray-400">', '</span>
+                  <span className="text-gray-400">&apos;, &apos;</span>
                   <span className="text-yellow-500">Vue</span>
-                  <span className="text-gray-400">', '</span>
+                  <span className="text-gray-400">&apos;, &apos;</span>
                   <span className="text-yellow-500">Flutter</span>
-                  <span className="text-gray-400">',</span>
-                  <span className="text-gray-400">'</span>
+                  <span className="text-gray-400">&apos;,</span>
+                  <span className="text-gray-400">&apos;</span>
                   <span className="text-yellow-500">...</span>
-                  <span className="text-gray-400">'],</span>
+                  <span className="text-gray-400">&apos;],</span>
                 </div>
                 <div>
                   <span className="ml-4 lg:ml-8 mr-2 text-blue-500 dark:text-white">
