@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <div className="lg:bg-yellow-500 bg-[#fff]  self-stretch flex items-center min-h-[100%] justify-center ">
+    <div className="bg-yellow-500   self-stretch flex items-center min-h-[100%] justify-center ">
       <div className=" relative overflow-hidden xl:w-[90%] w-[100%] lg:max-xl:px-10 h-screen ">
         <div className="grid grid-cols-12 relative bottom-20 z-10 h-full ">
           <div className="w-full h-full xl:col-span-3  col-span-3 "></div>
@@ -14,8 +14,9 @@ const HeroSection = () => {
           <div
             className=" col-span-4 h-[90%] w-[100%] bg-white rounded-[30px] shadow ml-4 hidden lg:block "
             style={{
-              backgroundImage: "url('/images/hero.jpg')",
+              backgroundImage: "url('/images/hero2.jpg')",
               backgroundPosition: "center",
+              backgroundSize: "cover",
             }}
           ></div>
           <div className="w-[250px] h-[250px] rounded-full border-4 border-[#252525] col-span-12 lg:hidden"></div>
