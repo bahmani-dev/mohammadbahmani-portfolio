@@ -8,7 +8,7 @@ Welcome to my portfolio project! This project showcases my skills, projects, and
 
 ## 🚀 Deployed Link
 
-🌐 [Live Demo](https://your-portfolio-url.com)
+🌐 [Live Demo](https://mohammadbahmani.vercel.app/)
 
 ## ✨ Features
 
@@ -32,7 +32,9 @@ Welcome to my portfolio project! This project showcases my skills, projects, and
 <img width="1679" alt="Screen Shot 1403-02-04 at 09 33 51" src="https://github.com/mohammadbahmani-dev/mohammadbahmani-portfolio/assets/101063732/90a4e0e0-c0f5-4412-8823-e9e0b7f07190">
 <img width="1677" alt="Screen Shot 1403-02-04 at 09 34 06" src="https://github.com/mohammadbahmani-dev/mohammadbahmani-portfolio/assets/101063732/325ba091-34bc-48af-b6da-b990998dd8b7">
 
-##📬 Contact
+
+## 📬 **Contact**
+
 Feel free to reach out to me if you have any questions or suggestions!
 
 Email: mohammadmandegar2019@gmail.com
