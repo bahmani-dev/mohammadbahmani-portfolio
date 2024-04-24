@@ -22,20 +22,27 @@ const BlogPage = () => {
   ];
 
   return (
-    <div className="w-full flex flex-col items-center dark:bg-[#0f0f0f] bg-white dark:text-white text-[#666] gap-10 min-h-screen ">
-      <h1 className="uppercase text-[52px] max-md:text-[42px] font-bold   mt-10 relative z-10">
-        my <span className="text-yellow-500">blogs</span>
-      </h1>
-      <h2 className="uppercase absolute dark:text-[#c4c4c4] text-[#1e2530]  mt-2 text-[96px] max-md:text-[82px] z-0 font-bold opacity-10">
-        posts
-      </h2>
-      <Header></Header>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 max-w-[80%] mb-[120px]">
-        {blogs.map((blog, index) => (
-          <BlogCard key={index} blog={blog} />
-        ))}
+    <motion.div
+      className="h-full"
+      initial={{ y: "-200vh" }}
+      animate={{ y: "0%" }}
+      transition={{ duration: 1 }}
+    >
+      <div className="w-full flex flex-col items-center dark:bg-[#0f0f0f] bg-white dark:text-white text-[#666] gap-10 min-h-screen ">
+        <h1 className="uppercase text-[52px] max-md:text-[42px] font-bold   mt-10 relative z-10">
+          my <span className="text-yellow-500">blogs</span>
+        </h1>
+        <h2 className="uppercase absolute dark:text-[#c4c4c4] text-[#1e2530]  mt-2 text-[96px] max-md:text-[82px] z-0 font-bold opacity-10">
+          posts
+        </h2>
+        <Header></Header>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 max-w-[80%] mb-[120px]">
+          {blogs.map((blog, index) => (
+            <BlogCard key={index} blog={blog} />
+          ))}
+        </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
