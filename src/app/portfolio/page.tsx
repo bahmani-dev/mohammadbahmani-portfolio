@@ -1,6 +1,8 @@
+"use client";
 import Header from "@/components/header";
 import ProjectCard from "@/components/projectCard";
 import React from "react";
+import { motion } from "framer-motion";
 
 const PortfolioPage = () => {
   const projects = [
@@ -39,24 +41,31 @@ const PortfolioPage = () => {
   ];
 
   return (
-    <div className=" flex flex-col items-center dark:bg-[#0f0f0f] bg-white dark:text-white text-[#666] gap-10 min-h-screen ">
-      <h1 className="uppercase text-[52px] max-md:text-[42px] font-bold mt-8  lg:mt-12 relative z-10">
-        my <span className="text-yellow-500">portfolio</span>
-      </h1>
-      <h2 className="uppercase absolute dark:text-[#c4c4c4] text-[#1e2530]   text-[108px] max-md:text-[82px] z-0 font-bold opacity-10">
-        works
-      </h2>
+    <motion.div
+      className="h-full"
+      initial={{ y: "-200vh" }}
+      animate={{ y: "0%" }}
+      transition={{ duration: 1 }}
+    >
+      <div className=" flex flex-col items-center dark:bg-[#0f0f0f] bg-white dark:text-white text-[#666] gap-10 min-h-screen ">
+        <h1 className="uppercase text-[52px] max-md:text-[42px] font-bold mt-8  lg:mt-12 relative z-10">
+          my <span className="text-yellow-500">portfolio</span>
+        </h1>
+        <h2 className="uppercase absolute dark:text-[#c4c4c4] text-[#1e2530]   text-[108px] max-md:text-[82px] z-0 font-bold opacity-10">
+          works
+        </h2>
 
-      <Header></Header>
+        <Header></Header>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 xl:gap-10 justify-between max-w-[80%] xl:max-w-[1200px] mb-[120px]">
-        {projects.map((project, index) => (
-          <div key={index} style={{ marginTop: index % 2 ? "50px" : "" }}>
-            <ProjectCard project={project} />
-          </div>
-        ))}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 xl:gap-10 justify-between max-w-[80%] xl:max-w-[1200px] mb-[120px]">
+          {projects.map((project, index) => (
+            <div key={index} style={{ marginTop: index % 2 ? "50px" : "" }}>
+              <ProjectCard project={project} />
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
