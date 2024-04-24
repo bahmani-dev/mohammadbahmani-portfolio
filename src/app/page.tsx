@@ -6,6 +6,7 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { PageWrapper } from "./pageWrapper";
 import PreloadingScreen from "@/components/PreloadingScreen";
+import { motion } from "framer-motion";
 
 const Home = () => {
   const [helloShown, setHelloShown] = useState<boolean>(false);
@@ -36,7 +37,12 @@ const Home = () => {
   }, [isHardReload]);
 
   return (
-    <PageWrapper>
+    <motion.div
+      className="h-full"
+      initial={{ y: "-200vh" }}
+      animate={{ y: "0%" }}
+      transition={{ duration: 1 }}
+    >
       <main className="flex flex-col items-center">
         <div className="lg:self-end absolute lg:h-[100%] max-lg:w-full  flex justify-center lg:pr-5">
           <Header></Header>
@@ -48,7 +54,7 @@ const Home = () => {
         {/* {isHardReload && <PreloadingScreen />} */}
         <Hero />
       </main>
-    </PageWrapper>
+    </motion.div>
   );
 };
 
