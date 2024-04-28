@@ -16,7 +16,7 @@ const TransitionProvider: React.FC<TransitionProviderProps> = ({
     <AnimatePresence mode="wait">
       <div
         key={pathName}
-        className="w-screen h-screen bg-gradient-to-b from-[#111] to-[#252525] relative z-30"
+        className="w-screen bg-gradient-to-b from-[#111] to-[#252525] relative z-30"
       >
         <motion.div
           className="h-screen w-screen fixed bg-black rounded-b-[100px] z-40"
@@ -39,7 +39,7 @@ const TransitionProvider: React.FC<TransitionProviderProps> = ({
           animate={{ height: "0vh", transition: { delay: 0.5 } }}
         />
 
-        <div className="h-[calc(100vh-6rem)]">{children}</div>
+        <div className="h-[[calc(100vh-6rem)]]">{children}</div>
       </div>
     </AnimatePresence>
   );
