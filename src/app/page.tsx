@@ -37,24 +37,23 @@ const Home = () => {
   }, [isHardReload]);
 
   return (
-    <motion.div
-      className="h-full"
-      initial={{ y: "-200vh" }}
-      animate={{ y: "0%" }}
-      transition={{ duration: 1 }}
-    >
-      <main className="flex flex-col items-center">
-        <div className="lg:self-end absolute lg:h-[100%] max-lg:w-full  flex justify-center lg:pr-5">
-          <Header></Header>
-        </div>
+    <>
+      <Header></Header>
+      <motion.div
+        className="h-full"
+        initial={{ y: "-200vh" }}
+        animate={{ y: "0%" }}
+        transition={{ duration: 1 }}
+      >
+        <main className="flex flex-col items-center">
+          <div className="self-end absolute h-screen w-[40%] dark:bg-[#111] bg-white z-0 "></div>
+          {/* <div className="self-start absolute h-[700px] w-[20%] hero "></div> */}
 
-        <div className="self-end absolute h-screen w-[40%] dark:bg-[#111] bg-white z-0 "></div>
-        {/* <div className="self-start absolute h-[700px] w-[20%] hero "></div> */}
-
-        {/* {isHardReload && <PreloadingScreen />} */}
-        <Hero />
-      </main>
-    </motion.div>
+          {/* {isHardReload && <PreloadingScreen />} */}
+          <Hero />
+        </main>
+      </motion.div>
+    </>
   );
 };
 
