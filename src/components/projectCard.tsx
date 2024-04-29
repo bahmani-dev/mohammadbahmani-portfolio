@@ -18,10 +18,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   const [isHovered, setIsHovered] = React.useState(false);
   return (
     <div>
-      <div style={{ background: `${project.color}` }}>
+      <div style={{ background: `${project.color}` }} className="rounded-md ">
         <Link
           href={project.liveDemoUrl}
-          className={`flex flex-col items-center justify-center h-[400px]  py-10 px-5 rounded-md  dark:bg-gray-600 cursor-pointer relative overflow-hidden  `}
+          className={`flex flex-col items-center justify-center h-[400px] rounded-md  dark:bg-gray-600  py-10 px-5  cursor-pointer relative overflow-hidden  `}
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
         >
