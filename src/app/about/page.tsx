@@ -32,7 +32,7 @@ const AboutPage = () => {
           <div className="flex flex-wrap justify-evenly lg:grid grid-cols-12 container ">
             {/* Personal Info */}
 
-            <div className=" p-4 col-span-6 w-full max-lg:m-auto">
+            <div className=" p-4 col-span-6 w-full max-lg:m-auto order-2 lg:order-1">
               <div className="sm:max-lg:w-[80%] w-full m-auto">
                 <h3 className="uppercase md:text-[22px]  text-[18px]  font-bold text-[#666] dark:text-white mb-5">
                   personal infos
@@ -40,29 +40,41 @@ const AboutPage = () => {
                 <div className="grid grid-cols-2 gap-4 text-[#666] dark:text-white text-sm lg:text-base">
                   {/* Personal Info Items */}
                   <div>
-                    <p className="font-thin inline-block">First Name:</p>
+                    <p className="font-thin inline-block text-[#111] dark:text-white">
+                      First Name:
+                    </p>
                     <p className="md:inline block">Mohammad</p>
                   </div>
                   <div>
-                    <p className="font-thin md:inline block">Last Name:</p>
+                    <p className="font-thin md:inline block text-[#111] dark:text-white">
+                      Last Name:
+                    </p>
                     <p className="md:inline block">Bahmani</p>
                   </div>
-                  <div>
-                    <p className="font-thin md:inline block">Email:</p>
-                    <p className=" block">mohammadmandegar2019@gmail.com</p>
+                  <div className="col-span-2 sm:col-span-1">
+                    <p className="font-thin md:inline block text-[#111] dark:text-white ">
+                      Email:
+                    </p>
+                    <p className=" block ">mohammadmandegar2019@gmail.com</p>
                   </div>
                   <div>
-                    <p className="font-thin md:inline block">Phone:</p>
+                    <p className="font-thin md:inline block text-[#111] dark:text-white">
+                      Phone:
+                    </p>
                     <p className="md:inline block">+93778990838</p>
                   </div>
                   <div>
-                    <p className="font-thin md:inline block">Address:</p>
+                    <p className="font-thin md:inline block text-[#111] dark:text-white">
+                      Address:
+                    </p>
                     <p className="md:inline block">
                       Shahr-e-Naw, Kabul, Afghanistan
                     </p>
                   </div>
                   <div>
-                    <p className="font-thin md:inline block">Languages:</p>
+                    <p className="font-thin md:inline block text-[#111] dark:text-white">
+                      Languages:
+                    </p>
                     <p className="md:inline block">English, Persian</p>
                   </div>
                 </div>
@@ -75,7 +87,7 @@ const AboutPage = () => {
                 </div>
               </div>
             </div>
-            <div className=" col-span-6 w-full p-5  sm:max-lg:w-[80%]">
+            <div className=" col-span-6 w-full p-5  sm:max-lg:w-[80%] order-1 lg:order-2">
               <div className="dark:from-[#111] from-[##25272f]  bg-gradient-to-r to-[#1f2024] dark:to-[#121212]  border border-[#1b2c68a0] relative rounded-lg  ">
                 <div className="flex flex-row">
                   <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-yellow-500 to-red-600"></div>
@@ -83,72 +95,72 @@ const AboutPage = () => {
                 </div>
                 <div className="px-4 lg:px-8 py-5">
                   <div className="flex flex-row space-x-2">
-                    <div className="h-3 w-3 rounded-full bg-red-400"></div>
-                    <div className="h-3 w-3 rounded-full bg-orange-400"></div>
-                    <div className="h-3 w-3 rounded-full bg-green-200"></div>
+                    <div className="h-3 w-3 rounded-full dark:bg-red-400 bg-red-500 "></div>
+                    <div className="h-3 w-3 rounded-full dark:bg-orange-400 bg-orange-500"></div>
+                    <div className="h-3 w-3 rounded-full dark:bg-green-200 bg-green-500"></div>
                   </div>
                 </div>
                 <div className="overflow-hidden border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-4">
                   <code className="font-mono text-xs md:text-sm lg:text-sm ">
                     <div className="blink">
                       <span className="mr-2 text-pink-500">const</span>
-                      <span className="mr-2 text-blue-500 dark:text-white">
+                      <span className="mr-2 text-blue-600 dark:text-white">
                         coder
                       </span>
                       <span className="mr-2 text-pink-500">=</span>
                       <span className="text-gray-400"></span>
                     </div>
                     <div>
-                      <span className="ml-4 lg:ml-8 mr-2 text-blue-500 dark:text-white">
+                      <span className="ml-4 lg:ml-8 mr-2 text-blue-600 dark:text-white">
                         name:
                       </span>
                       <span className="text-gray-400">&apos;</span>
-                      <span className="text-yellow-500">Mohammad Bahmani</span>
+                      <span className="text-yellow-600">Mohammad Bahmani</span>
                       <span className="text-gray-400">&apos;,</span>
                     </div>
                     <div className="ml-4 lg:ml-8 mr-2">
-                      <span className=" text-blue-500 dark:text-white">
+                      <span className=" text-blue-600 dark:text-white">
                         skills:
                       </span>
                       <span className="text-gray-400">[&apos;</span>
-                      <span className="text-yellow-500">React</span>
+                      <span className="text-yellow-600">React</span>
                       <span className="text-gray-400">&apos;, &apos;</span>
-                      <span className="text-yellow-500">NextJS</span>
+                      <span className="text-yellow-600">NextJS</span>
                       <span className="text-gray-400">&apos;, &apos;</span>
-                      <span className="text-yellow-500">Postgres</span>
+                      <span className="text-yellow-600">Postgres</span>
                       <span className="text-gray-400">&apos;, &apos;</span>
-                      <span className="text-yellow-500">Express</span>
+                      <span className="text-yellow-600">Express</span>
                       <span className="text-gray-400">&apos;, &apos;</span>
-                      <span className="text-yellow-500">NestJS</span>
+                      <span className="text-yellow-600">NestJS</span>
                       <span className="text-gray-400">&apos;, &apos;</span>
-                      <span className="text-yellow-500">MySql</span>
+                      <span className="text-yellow-600">MySql</span>
                       <span className="text-gray-400">&apos;, &apos;</span>
-                      <span className="text-yellow-500">MongoDB</span>
+                      <span className="text-yellow-600">MongoDB</span>
                       <span className="text-gray-400">&apos;, &apos;</span>
-                      <span className="text-yellow-500">Vue</span>
+                      <span className="text-yellow-600">Vue</span>
                       <span className="text-gray-400">&apos;, &apos;</span>
-                      <span className="text-yellow-500">Flutter</span>
+                      <span className="text-yellow-600">Flutter</span>
                       <span className="text-gray-400">&apos;,</span>
                       <span className="text-gray-400">&apos;</span>
-                      <span className="text-yellow-500">...</span>
+                      <span className="text-yellow-600">...</span>
                       <span className="text-gray-400">&apos;],</span>
                     </div>
                     <div>
-                      <span className="ml-4 lg:ml-8 mr-2 text-blue-500 dark:text-white">
+                      <span className="ml-4 lg:ml-8 mr-2 text-blue-600 dark:text-white">
                         hardWorker:
                       </span>
                       <span className="text-orange-400">true</span>
                       <span className="text-gray-400">,</span>
                     </div>
                     <div>
-                      <span className="ml-4 lg:ml-8 mr-2 text-blue-500 dark:text-white">
+                      <span className="ml-4 lg:ml-8 mr-2 text-blue-600 dark:text-white">
                         quickLearner:
                       </span>
                       <span className="text-orange-400">true</span>
                       <span className="text-gray-400">,</span>
                     </div>
                     <div>
-                      <span className="ml-4 lg:ml-8 mr-2 text-blue-500 dark:text-white">
+                      <span className="ml-4 lg:ml-8 mr-2 text-blue-600 dark:text-white">
                         problemSolver:
                       </span>
                       <span className="text-orange-400">true</span>
@@ -171,28 +183,28 @@ const AboutPage = () => {
                       <span className="ml-12 lg:ml-24 text-cyan-400">
                         this.
                       </span>
-                      <span className="mr-2 text-blue-500 dark:text-white">
+                      <span className="mr-2 text-blue-600 dark:text-white">
                         hardWorker
                       </span>
-                      <span className="text-yellow-500">&amp;&amp;</span>
+                      <span className="text-yellow-600">&amp;&amp;</span>
                     </div>
                     <div>
                       <span className="ml-12 lg:ml-24 text-cyan-400">
                         this.
                       </span>
-                      <span className="mr-2 text-blue-500 dark:text-white">
+                      <span className="mr-2 text-blue-600 dark:text-white">
                         problemSolver
                       </span>
-                      <span className="text-yellow-500">&amp;&amp;</span>
+                      <span className="text-yellow-600">&amp;&amp;</span>
                     </div>
                     <div>
                       <span className="ml-12 lg:ml-24 text-cyan-400">
                         this.
                       </span>
-                      <span className="mr-2 text-blue-500 dark:text-white">
+                      <span className="mr-2 text-blue-600 dark:text-white">
                         skills.length
                       </span>
-                      <span className="mr-2 text-yellow-500">&gt;=</span>
+                      <span className="mr-2 text-yellow-600">&gt;=</span>
                       <span className="text-orange-400">5</span>
                     </div>
                     <div>
@@ -277,7 +289,7 @@ const AboutPage = () => {
                   Next.js
                 </div>
                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                  SCSS
+                  Nestjs
                 </div>
                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                   Tailwind CSS
@@ -292,43 +304,43 @@ const AboutPage = () => {
                   Node.js
                 </div>
                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                  Nest.js
+                  Dart
                 </div>
                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                   Express.js
                 </div>
                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                  Spring Boot
+                  Vue
                 </div>
                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                  GraphQL
+                  Python
                 </div>
                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                  Apollo
+                  SCSS
                 </div>
                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                  Redux
+                  Flutter
                 </div>
                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                   Framer Motion
                 </div>
                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                  Three.js
+                  Laravel
                 </div>
                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                  WebGL
+                  MySql
                 </div>
                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                  Webpack
+                  inertiaJS
                 </div>
                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                   Vite
                 </div>
                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                  Docker
+                  PHP
                 </div>
                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
-                  AWS
+                  BootStrap
                 </div>
                 <div className="rounded  p-2 text-sm cursor-pointer bg-black text-white hover:bg-white hover:text-black">
                   Firebase
