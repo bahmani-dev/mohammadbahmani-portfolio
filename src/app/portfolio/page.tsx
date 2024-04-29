@@ -19,7 +19,7 @@ const PortfolioPage = () => {
       name: "Colorful Effects Artgallery mobile app",
       imageUrl: "/images/portfolio2.png",
       liveDemoUrl: "",
-      color: "#224f7d",
+      color: "#e0de57",
       desc: "The art gallery mobile app allows users to browse, order, and purchase artwork conveniently. With a user-friendly interface, users can explore a diverse collection, add artworks to their cart, and securely complete transactions. They can also save favorites, read reviews, and discover artists.",
     },
     {
@@ -27,7 +27,7 @@ const PortfolioPage = () => {
       name: "Vidagram Social Media",
       imageUrl: "/images/portfolio3.jpeg",
       liveDemoUrl: "",
-      color: "#90133d",
+      color: "#1547a5",
       desc: "Introducing Vidagram: your go-to social media platform for sharing moments, connecting with friends, and discovering new content! Post your favorite videos, photos, and stories, then engage with your community through likes, comments, and private messages. Stay up-to-date with friends' stories and explore trending content—all in one place. Join Vidagram today and start sharing your world!",
     },
     {
@@ -35,7 +35,7 @@ const PortfolioPage = () => {
       name: "Kamyab Contracting",
       imageUrl: "/images/portfolio4.png",
       liveDemoUrl: "",
-      color: "#90133d",
+      color: "#e2c94f",
       desc: "      Kamyab Contracting website, a leader company since 2003, excels in the general contracting field with reshaping residential and commercial spaces with 20+ years of experience",
     },
   ];
