@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./button";
 import Link from "next/link";
+import { FaDownload } from "react-icons/fa6";
 
 const HeroSection = () => {
   return (
@@ -52,10 +53,14 @@ const HeroSection = () => {
               digital solutions. Let&apos;s create something remarkable
               together!
             </p>
-            <div className="max-lg:text-center">
-              <Link href="/about">
-                <Button text="more about me" type="button"></Button>
-              </Link>
+            <div className=" max-lg:text-center">
+              <a className=" inline-block" href="./bahmani-cv.pdf" download>
+                <Button
+                  text="Download CV"
+                  type="button"
+                  icon={<FaDownload />}
+                ></Button>
+              </a>
             </div>
           </div>
         </div>

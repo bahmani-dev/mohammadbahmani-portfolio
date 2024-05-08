@@ -33,6 +33,7 @@ export default function RootLayout({
   };
   return (
     <html lang="en">
+      <title>Mohammad Bahmani</title>
       <body
         className={`${inter.className} ${darkMode ? "dark" : "light"} relative`}
       >

@@ -8,10 +8,28 @@ import { Autoplay } from "swiper/modules";
 import Button from "@/components/button";
 import Header from "@/components/header";
 import { FaDownload } from "react-icons/fa6";
-import { motion, useInView, useScroll } from "framer-motion";
-import { useRef } from "react";
+import { motion } from "framer-motion";
 
 const AboutPage = () => {
+  const handleDownload = async () => {
+    try {
+      const response = await fetch("/api/download");
+      if (!response.ok) {
+        throw new Error("Failed to download file");
+      }
+      // Trigger the file download
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(new Blob([blob]));
+      const link = document.createElement("a");
+      link.href = url;
+      link.setAttribute("download", "bahmani-cv.pdf");
+      document.body.appendChild(link);
+      link.click();
+      link.parentNode?.removeChild(link);
+    } catch (error) {
+      console.error(error);
+    }
+  };
   return (
     <>
       <Header></Header>
@@ -78,13 +96,17 @@ const AboutPage = () => {
                     <p className="md:inline block">English, Persian</p>
                   </div>
                 </div>
-                <div className="mt-5 lg:mt-10">
+                <a
+                  className="mt-5 lg:mt-10 inline-block"
+                  href="./bahmani-cv.pdf"
+                  download
+                >
                   <Button
                     text="Download CV"
                     type="button"
                     icon={<FaDownload />}
                   ></Button>
-                </div>
+                </a>
               </div>
             </div>
             <div className=" col-span-6 w-full p-5  sm:max-lg:w-[80%] order-1 lg:order-2">
