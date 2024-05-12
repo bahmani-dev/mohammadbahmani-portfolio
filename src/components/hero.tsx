@@ -31,16 +31,16 @@ const HeroSection = () => {
           <div className="text-lg md:text-xl lg:text-2xl lg:col-span-8 col-span-12 flex flex-col justify-center  gap-5 sm:w-[70%] w-[100%] p-4 text-[#555] dark:text-white">
             <div className="sm:text-4xl text-2xl font-bold leading-tight max-lg:text-center   ">
               <div className="relative flex justify-center flex-col">
-                <div className=" relative flex items-center max-lg:justify-center h-[50px] xl:w-[100%] w-full">
+                <div className=" relative flex items-center max-lg:justify-center xl:h-[50px] xl:w-[100%] w-full">
                   <span className="blocked "></span>
-                  <h1 className="text-yellow-600 dark:text-yellow-500 uppercase title sm:text-[32px] xl:text-[46px] ">
+                  <h1 className="text-yellow-600 dark:text-yellow-500 uppercase title sm:text-[32px] xl:text-[40px] leading-8 xl:leading-10 ">
                     {" "}
                     I&apos;M Mohammad Bahmani <span></span>
                   </h1>
                 </div>
-                <div className="role xl:w-[60%] w-full max-lg:justify-center xl:mt-3 ">
+                <div className="role xl:w-[60%] w-full max-lg:justify-center mt-3   ">
                   <div className="blocked"></div>
-                  <p className="xl:text-[24px] sm:text-[32px] dark:text-white ">
+                  <p className="xl:text-[24px] sm:text-[24px] dark:text-white ">
                     {" "}
                     SOFTWARE Developer
                   </p>
