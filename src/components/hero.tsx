@@ -42,13 +42,13 @@ const HeroSection = () => {
                   <div className="blocked"></div>
                   <p className="xl:text-[24px] sm:text-[32px] dark:text-white ">
                     {" "}
-                    SOFTWARE ENGINEER
+                    SOFTWARE Developer
                   </p>
                 </div>
               </div>
             </div>
             <p className="xl:leading-[37px] leading-normal lg:leading-loose sm:text-[16px] text-base font-thin max-lg:text-center xl:w-[550px] mt-3  xl:mt-5 ">
-              Software Engineer committed to crafting captivating user
+              Software Developer committed to crafting captivating user
               experiences. Passionate about transforming ideas into impactful
               digital solutions. Let&apos;s create something remarkable
               together!
