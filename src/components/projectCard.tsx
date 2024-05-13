@@ -8,6 +8,7 @@ interface Project {
   liveDemoUrl: string;
   color: string;
   desc: string;
+  target: string;
 }
 
 interface ProjectCardProps {
@@ -24,6 +25,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           className={`flex flex-col items-center justify-center h-[400px] rounded-md  dark:bg-gray-600  py-10 px-5  cursor-pointer relative overflow-hidden  `}
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
+          target={project.target}
         >
           <Image
             src={project.imageUrl}
